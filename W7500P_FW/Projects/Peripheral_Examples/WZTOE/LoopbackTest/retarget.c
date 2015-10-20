@@ -1,9 +1,9 @@
 /**
   ******************************************************************************
-  * @file    WZTOE/Loopback/retarget.c 
+  * @file    /ADC/Illumination_RGBLED/retarget.c 
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   Using for printf function
   ******************************************************************************
   * @attention
@@ -17,12 +17,12 @@
   *
   * <h2><center>&copy; COPYRIGHT 2015 WIZnet Co.,Ltd.</center></h2>
   ******************************************************************************
-  */
+  */ 
 
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_uart.h"
 
-#define USING_UART2
+#define USING_UART1
 
 #if defined (USING_UART0)
     #define UART_SEND_BYTE(ch)  UartPutc(UART0,ch)
@@ -69,7 +69,7 @@ void _sys_exit(int return_code) {
    label:  goto label;  /* endless loop */
 }
 
-#else
+#elif defined (__GNUC__)
 /******************************************************************************/
 /* Retarget functions for GNU Tools for ARM Embedded Processors               */
 /******************************************************************************/
@@ -83,4 +83,16 @@ __attribute__ ((used))  int _write (int fd, char *ptr, int len)
     }
   return len;
 }
+#else //using TOOLCHAIN_IAR
+
+int putchar(int ch)
+{
+    return (UART_SEND_BYTE(ch));
+}
+
+int getchar(void)
+{
+    return (UART_SEND_BYTE(UART_RECV_BYTE()));
+}
+
 #endif
