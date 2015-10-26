@@ -8,14 +8,21 @@
 
 #define __DEF_DBG_LEVEL1__
 
-#define MDIO    GPIO_Pin_14
-#define MDC     GPIO_Pin_15
-
 
 extern void delay(__IO uint32_t nCount);
+
+
+uint32_t PHY_ADDR_IP101G; //(phy_id())
+uint32_t PHY_ADDR;// PHY_ADDR_IP101G
+
 uint32_t link(void)
 {
-    return ((mdio_read(GPIOB, PHYREG_STATUS)>>SVAL)&0x01); 
+    uint32_t phy_status = mdio_read(GPIOB, PHYREG_STATUS);  
+    uint32_t phy_status_link;
+    
+    phy_status_link = (phy_status>>2)&0x01;
+    
+    return phy_status_link; 
 }
 
 void set_link(SetLink_Type mode)
@@ -39,7 +46,7 @@ void set_link(SetLink_Type mode)
 
 void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO)
 {
-      /* Set GPIOs for MDIO and MDC */
+    /* Set GPIOs for MDIO and MDC */
     GPIO_InitTypeDef GPIO_InitDef;  
 		
     GPIO_InitDef.GPIO_Pin = GPIO_Pin_MDC | GPIO_Pin_MDIO;
@@ -52,6 +59,8 @@ void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDI
     mdio_write(GPIOB,20,1);
     mdio_write(GPIOB,23,0x8000);
 #endif
+    
+    PHY_ADDR = (phy_id());
 
 }
 
@@ -122,7 +131,7 @@ uint32_t mdio_read(GPIO_TypeDef* GPIOx, uint32_t PhyRegAddr)
     output_MDIO(GPIOx, 0x06, 4);
 
     /* write PHY address */
-    //printf("mdio read - PHY address \r\n");
+    //printf("mdio write- PHY address \r\n");
     output_MDIO(GPIOx, PHY_ADDR, 5);
 
     //printf("mdio read - PHY REG address \r\n");
@@ -146,7 +155,6 @@ uint32_t mdio_read(GPIO_TypeDef* GPIOx, uint32_t PhyRegAddr)
 
 void mdio_write(GPIO_TypeDef* GPIOx, uint32_t PhyRegAddr, uint32_t val)
 {
-
     /* 32 Consecutive ones on MDO to establish sync */
     //printf("mdio write- sync \r\n");
     output_MDIO(GPIOx, 0xFFFFFFFF, 32);
@@ -158,7 +166,7 @@ void mdio_write(GPIO_TypeDef* GPIOx, uint32_t PhyRegAddr, uint32_t val)
     /* write PHY address */
     //printf("mdio write- PHY address \r\n");
     output_MDIO(GPIOx, PHY_ADDR, 5);
-
+    
     //printf("mdio read - PHY REG address \r\n");
     output_MDIO(GPIOx, PhyRegAddr, 5);
 
@@ -173,6 +181,53 @@ void mdio_write(GPIO_TypeDef* GPIOx, uint32_t PhyRegAddr, uint32_t val)
     /* turnaround MDO is tristated */
     //printf("mdio write- idle \r\n");
     idle_MDIO(GPIOx);
+}
 
+int32_t phy_id(void)
+{
+    int32_t data;
+    int i=0;
+
+    for(i=1; i<8; i+=2)
+    {
+        /* 32 Consecutive ones on MDO to establish sync */
+        //printf("mdio read - sync \r\n");
+        output_MDIO(GPIOB, 0xFFFFFFFF, 32);
+
+        /* start code 01, read command (10) */
+        //printf("mdio read - start \r\n");
+        output_MDIO(GPIOB, 0x06, 4);
+
+        /* write PHY address */
+        //printf("mdio read - PHY address \r\n");
+        output_MDIO(GPIOB, i, 5);
+
+        //printf("mdio read - PHY REG address \r\n");
+        output_MDIO(GPIOB, PHYREG_STATUS, 5);
+
+        /* turnaround MDO is tristated */
+        //printf("mdio read - turnaround \r\n");
+        turnaround_MDIO(GPIOB);
+
+        /* Read the data value */
+        //printf("mdio read - read the data value \r\n");
+        data = input_MDIO(GPIOB);
+        //printf("mdio read - val : %X\r\n", val );
+
+        /* turnaround MDO is tristated */
+        //printf("mdio read - idle \r\n");
+        idle_MDIO(GPIOB);
+        
+        if(data == (0x7849) || data == (0x786D))
+        {
+            /*For DEBUG*/
+            //printf("\t PHY_Addr = %d , STATUS = %x\r\n",i,data);  //right : 0x7869
+            
+            return i;
+        }
+    }
+    while(1){printf("phy id detect error!!\r\n");}
+    
+    return 0;
 }
 

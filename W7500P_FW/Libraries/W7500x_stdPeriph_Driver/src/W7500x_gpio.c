@@ -58,18 +58,16 @@ void GPIO_DeInit(GPIO_TypeDef* GPIOx)
     {
         px_pcr = (P_Port_Def*)PA_PCR;
         px_afsr = (P_Port_Def*)PA_AFSR;
-        loop = 15;
     }
     else if (GPIOx == GPIOB)
     {
         px_pcr = (P_Port_Def*)PB_PCR;
         px_afsr = (P_Port_Def*)PB_AFSR;
-        loop = 4;
     }
     else // if  (GPIOx == GPIOC)
     {
-        px_pcr = (P_Port_Def*)PC_PCR;
-        px_afsr = (P_Port_Def*)PC_AFSR;
+        px_pcr = PC_PCR;
+        px_afsr = PC_AFSR;
     }  
 
     for(i=0; i<loop; i++)
@@ -92,17 +90,14 @@ void GPIO_Init(GPIO_TypeDef* GPIOx, GPIO_InitTypeDef* GPIO_InitStruct)
     if      (GPIOx == GPIOA)       
     {
         px_pcr  =(P_Port_Def*)PA_PCR;
-        loop = 15;
     }
     else if (GPIOx == GPIOB)        
     {
         px_pcr  = (P_Port_Def*)PB_PCR;
-        loop = 4;
     }
     else 
     {
-        px_pcr  =(P_Port_Def*) PC_PCR;
-        loop = 16;
+        px_pcr  = PC_PCR;
     }
 
     for(pinpos = 0x00; pinpos < loop; pinpos++)

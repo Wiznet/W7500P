@@ -313,51 +313,8 @@ typedef struct
 
 typedef struct
 {
-  __IO  uint32_t  Port[15]; /* Port_00,      offset : 0x00 */
-                            /* Port_01,      offset : 0x04 */
-                            /* Port_02,      offset : 0x08 */
-                            /* Port_03,      offset : 0x0C */
-                            /* Port_04,      offset : 0x10 */
-                            /* Port_05,      offset : 0x14 */
-                            /* Port_06,      offset : 0x18 */
-                            /* Port_07,      offset : 0x1C */
-                            /* Port_08,      offset : 0x20 */
-                            /* Port_09,      offset : 0x24 */
-                            /* Port_10,      offset : 0x28 */
-                            /* Port_11,      offset : 0x2C */
-                            /* Port_12,      offset : 0x30 */
-                            /* Port_13,      offset : 0x34 */
-                            /* Port_14,      offset : 0x38 */
+  __IO  uint32_t  Port[16];
 } P_Port_Def;
-typedef struct
-{
-  __IO  uint32_t  Port[4];  /* Port_00,      offset : 0x00 */
-                            /* Port_01,      offset : 0x04 */
-                            /* Port_02,      offset : 0x08 */
-                            /* Port_03,      offset : 0x0C */
-                    //NC    /* Port_04,      offset : 0x10 */
-                    //NC    /* Port_05,      offset : 0x14 */
-                    //NC   /* Port_06,      offset : 0x18 */
-} P_Port_B_Def;
-typedef struct
-{
-  __IO  uint32_t  Port[16]; /* Port_00,      offset : 0x00 */
-                            /* Port_01,      offset : 0x04 */
-                            /* Port_02,      offset : 0x08 */
-                            /* Port_03,      offset : 0x0C */
-                            /* Port_04,      offset : 0x10 */
-                            /* Port_05,      offset : 0x14 */
-                            /* Port_06,      offset : 0x18 */
-                      //NC  /* Port_07,      offset : 0x1C */
-                            /* Port_08,      offset : 0x20 */
-                            /* Port_09,      offset : 0x24 */
-                            /* Port_10,      offset : 0x28 */
-                            /* Port_11,      offset : 0x2C */
-                            /* Port_12,      offset : 0x30 */
-                            /* Port_13,      offset : 0x34 */
-                            /* Port_14,      offset : 0x38 */
-} P_Port_C_Def;
-
 
 
 /** 
@@ -598,20 +555,20 @@ typedef struct
 
 
 #define EXTI_PA         ((P_Port_Def *)   (EXTI_Px_BASE + 0x00000000UL))  /* PA_XX External interrupt Enable Register */
-#define EXTI_PB         ((P_Port_B_Def *)   (EXTI_Px_BASE + 0x00000040UL))  /* PB_XX External interrupt Enable Register */
-#define EXTI_PC         ((P_Port_C_Def *)   (EXTI_Px_BASE + 0x00000080UL))  /* PC_XX External interrupt Enable Register */
+#define EXTI_PB         ((P_Port_Def *)   (EXTI_Px_BASE + 0x00000040UL))  /* PB_XX External interrupt Enable Register */
+#define EXTI_PC         ((P_Port_Def *)   (EXTI_Px_BASE + 0x00000080UL))  /* PC_XX External interrupt Enable Register */
 
 #define GPIOA   ((GPIO_TypeDef *) (GPIOA_BASE) )
 #define GPIOB   ((GPIO_TypeDef *) (GPIOB_BASE) )
 #define GPIOC   ((GPIO_TypeDef *) (GPIOC_BASE) )
 
 #define PA_AFSR ((P_Port_Def *)   (P_AFSR_BASE + 0x00000000UL))  /* PA_XX Pad Alternate Function Select Register */
-#define PB_AFSR ((P_Port_B_Def *)   (P_AFSR_BASE + 0x00000040UL))  /* PB_XX Pad Alternate Function Select Register */
-#define PC_AFSR ((P_Port_C_Def *)   (P_AFSR_BASE + 0x00000080UL))  /* PC_XX Pad Alternate Function Select Register */
+#define PB_AFSR ((P_Port_Def *)   (P_AFSR_BASE + 0x00000040UL))  /* PB_XX Pad Alternate Function Select Register */
+#define PC_AFSR ((P_Port_Def *)   (P_AFSR_BASE + 0x00000080UL))  /* PC_XX Pad Alternate Function Select Register */
 
 #define PA_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000000UL))   /* PA_XX Pad Control Register */
-#define PB_PCR  ((P_Port_B_Def *)   (P_PCR_BASE + 0x00000040UL))   /* PB_XX Pad Control Register */
-#define PC_PCR  ((P_Port_C_Def *)   (P_PCR_BASE + 0x00000080UL))   /* PC_XX Pad Control Register */
+#define PB_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000040UL))   /* PB_XX Pad Control Register */
+#define PC_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000080UL))   /* PC_XX Pad Control Register */
 
 #define I2C0    ((I2C_TypeDef      *)  I2C0_BASE)
 #define I2C1    ((I2C_TypeDef      *)  I2C1_BASE)

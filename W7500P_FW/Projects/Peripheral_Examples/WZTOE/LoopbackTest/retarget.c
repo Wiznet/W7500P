@@ -22,7 +22,7 @@
 #include <stdio.h>
 #include "W7500x_uart.h"
 
-#define USING_UART1
+#define USING_UART2
 
 #if defined (USING_UART0)
     #define UART_SEND_BYTE(ch)  UartPutc(UART0,ch)

@@ -52,7 +52,7 @@ int main()
     //uint8_t rx_size[8] = { 2, 2, 2, 2, 2, 2, 2, 2 };
 	  //uint8_t dns_server[4] = {8, 8, 8, 8};           // for Example domain name server
     uint8_t mac_addr[6] = {0x00, 0x08, 0xDC, 0x01, 0x02, 0x03}; 
-    uint8_t src_addr[4] = {192, 168,  77,  9};
+    uint8_t src_addr[4] = {192, 168,  77,  123};
     uint8_t gw_addr[4]  = {192, 168,  77,  1};
     uint8_t sub_addr[4] = {255, 255, 255,  0};		
 
@@ -88,9 +88,11 @@ int main()
 #endif
 #ifdef __DEF_USED_MDIO__ 
     /* mdio Init */
-    mdio_init(GPIOB, MDC, MDIO );
+    mdio_init(GPIOB, MDC, MDIO);
+    
+//    printf("%d \r\n", PHY_ADDR);
     /* PHY Link Check via gpio mdio */
-    while( link() == 0x0 )
+    while( link() == 0x0)
     {
         printf(".");  
         delay(500);
@@ -124,7 +126,6 @@ int main()
     {
         loopback_tcps(0, test_buf, 5000);
     }
-
 }
 
 /**
