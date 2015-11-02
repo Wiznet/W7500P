@@ -4,7 +4,7 @@
  */
 
 #include <stdint.h>
-#include "W7500x.h"
+#include "W7500x_wztoe.h"
 
 #ifndef	__HTTPSERVER_H__
 #define	__HTTPSERVER_H__

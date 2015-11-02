@@ -12,8 +12,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "W7500x.h"
-
+#include "W7500x_gpio.h"
+#include "httpServer.h"
+#include "httpParser.h"
+#include "httpUtil.h"
+#include "wizchip_conf.h"
 
 uint8_t http_get_cgi_handler(uint8_t * uri_name, uint8_t * buf, uint32_t * file_len)
 {

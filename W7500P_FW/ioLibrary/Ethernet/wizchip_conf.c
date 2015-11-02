@@ -49,6 +49,8 @@
 //
 
 #include "wizchip_conf.h"
+#include "W7500x_wztoe.h"
+
 /**
  * @brief Default function to enable interrupt.
  * @note This function help not to access wrong address. If you do not describe this function or register any functions,

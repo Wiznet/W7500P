@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "loopback.h"
-#include "socket.h"
 #include "wizchip_conf.h"
 
 #if LOOPBACK_MODE == LOOPBACK_MAIN_NOBLCOK

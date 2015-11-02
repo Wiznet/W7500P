@@ -71,6 +71,7 @@ typedef enum IRQn
   PORT0_IRQn                   = 7,        /*!< Port 1 combined Interrupt                         */  
   PORT1_IRQn                   = 8,        /*!< Port 2 combined Interrupt                         */  
   PORT2_IRQn                   = 9,        /*!< Port 2 combined Interrupt                         */  
+  /* 10 = reserved Number */
   DMA_IRQn                     = 11,       /*!< DMA combined Interrupt                            */   
   DUALTIMER0_IRQn              = 12,       /*!< Dual Timer 0 Interrupt                            */
   DUALTIMER1_IRQn              = 13,       /*!< Dual Timer 1 Interrupt                            */
@@ -317,23 +318,6 @@ typedef struct
 } P_Port_Def;
 
 
-/** 
-  * @brief  I2C Register structure definition  
-  */
-typedef struct
-{
-    __IO uint32_t PRER;              //0x00
-    __IO uint32_t CTR;              //0x04
-    __IO uint32_t CMDR;              //0x08
-    __I  uint32_t SR;               //0x0C
-    __IO uint32_t TSR;               //0x10
-    __IO uint32_t SADDR;            //0x14
-    __IO uint32_t TXR;               //0x18
-    __I  uint32_t RXR;               //0x1C
-    __I  uint32_t ISR;              //0x20
-    __IO uint32_t ISCR;             //0x24
-    __IO uint32_t ISMR;             //0x28
-}I2C_TypeDef;
 
 /**
  * @brief PWM Register structure definition
@@ -570,8 +554,8 @@ typedef struct
 #define PB_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000040UL))   /* PB_XX Pad Control Register */
 #define PC_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000080UL))   /* PC_XX Pad Control Register */
 
-#define I2C0    ((I2C_TypeDef      *)  I2C0_BASE)
-#define I2C1    ((I2C_TypeDef      *)  I2C1_BASE)
+//#define I2C0    ((I2C_TypeDef      *)  I2C0_BASE)
+//#define I2C1    ((I2C_TypeDef      *)  I2C1_BASE)
 
 #define PWM                             ((PWM_TypeDef *)         (W7500x_PWM_BASE + 0x800UL ))   
 #define PWM_CH0                         ((PWM_CHn_TypeDef *)     (W7500x_PWM_BASE))   
@@ -1040,11 +1024,23 @@ typedef struct
 
 
 
-#ifdef USE_STDPERIPH_DRIVER
-   #include "W7500x_conf.h"
+
+#if !defined  (USE_HAL_DRIVER)
+#define USE_HAL_DRIVER
+#endif /* USE_HAL_DRIVER */
+
+
+
+#if defined (USE_HAL_DRIVER)
+//    #include "system_W7500x.h"
+//    #include "W7500x_conf.h"
 #endif
 
-
+#ifdef USE_FULL_ASSERT
+    #define assert_param(expr)  ((expr) ? (void)0 : assert_failed((uint8_t *)__FILE__,__LINE__))
+#else
+    #define assert_param(expr)   ((void)0)
+#endif /* USE_FULL_ASSERT */
 
 #ifdef __cplusplus
 }

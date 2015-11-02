@@ -2,6 +2,9 @@
 #define _LOOPBACK_H_
 
 #include <stdint.h>
+#include "socket.h"
+#include "W7500x_wztoe.h"
+
 
 /* Loopback test debug message printout enable */
 #define	_LOOPBACK_DEBUG_

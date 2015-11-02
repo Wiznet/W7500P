@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_miim.h"
 #ifdef __W7500P__
            // PB_05, PB_12 pull down
            *(volatile uint32_t *)(0x41003070) = 0x61;
@@ -229,5 +229,6 @@ int32_t phy_id(void)
     while(1){printf("phy id detect error!!\r\n");}
     
     return 0;
+    
 }
 

@@ -1,6 +1,6 @@
 #ifndef __MIIM_H__ 
 #define __MIIM_H__
-#include "W7500x.h"
+#include "W7500x_gpio.h"
 
 #define MDIO    GPIO_Pin_15
 #define MDC     GPIO_Pin_14

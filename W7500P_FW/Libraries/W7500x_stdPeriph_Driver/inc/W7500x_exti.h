@@ -76,4 +76,9 @@ uint16_t EXTI_Px_GetEXTEN(PAD_Type Px);
 uint16_t EXTI_Px_GetEXTINTPOL(PAD_Type Px);
 
 
+#ifdef __cplusplus
+}
+#endif
+
+
 #endif //__W7500X_EXTI_H

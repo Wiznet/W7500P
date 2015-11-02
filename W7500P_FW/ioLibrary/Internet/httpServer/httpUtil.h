@@ -12,7 +12,7 @@
 #ifndef	__HTTPUTIL_H__
 #define	__HTTPUTIL_H__
 
-#include "W7500x.h"
+#include "httpParser.h"
 
 
 #define RED        0

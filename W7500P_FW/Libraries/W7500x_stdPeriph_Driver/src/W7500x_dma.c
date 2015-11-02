@@ -13,7 +13,7 @@
 
 /*include ------------------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_dma.h"
 
 #define HW32_REG(ADDRESS)  (*((volatile unsigned long  *)(ADDRESS)))
 dma_data_structure *dma_data;

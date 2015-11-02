@@ -52,6 +52,7 @@
 #define	_DNS_H_
 
 #include <stdint.h>
+#include "W7500x_wztoe.h"
 /*
  * @brief Define it for Debug & Monitor DNS processing.
  * @note If defined, it dependens on <stdio.h>

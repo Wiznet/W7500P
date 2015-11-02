@@ -8,7 +8,7 @@
  *********************************************************************
  * @attention
  */
-#include "W7500x.h"
+#include "W7500x_wztoe.h"
 uint8_t WIZCHIP_READ(uint32_t Addr)
 {
     uint8_t ret;

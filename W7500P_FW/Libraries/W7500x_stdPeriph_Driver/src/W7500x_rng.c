@@ -12,7 +12,7 @@
   */
 
 /*include ----------------------------------------------------------*/
-#include "W7500x.h"
+#include "W7500x_rng.h"
 
 void RNG_Run (FunctionalState NewState)
 {

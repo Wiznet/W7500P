@@ -12,7 +12,8 @@
   */
 /*include -------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_i2c.h"
+#include "W7500x_gpio.h"
 
 GPIO_InitTypeDef GPIO_InitDef;
 

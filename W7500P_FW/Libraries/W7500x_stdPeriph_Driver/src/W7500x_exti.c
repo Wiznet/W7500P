@@ -12,7 +12,8 @@
   */
 
 /*include -------------------------------------*/
-#include "W7500x.h"
+#include "W7500x_exti.h"
+#include "W7500x_gpio.h"
 
 /**
   * @brief  Deinitializes the EXTI peripheral registers to their default reset values.

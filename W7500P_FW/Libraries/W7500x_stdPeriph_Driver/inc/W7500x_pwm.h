@@ -162,7 +162,8 @@ typedef struct
 #define IS_PWM_CHn_IntClearFlag(FLAG)       FLAG <= 0x7
 
 
-#define IS_PWM_PR_FILTER(MAXVAL)        (MAXVAL <= 0x1F);        
+
+#define IS_PWM_PR_FILTER(MAXVAL)        (MAXVAL <= 0x1F)
                                      
 
 #define PWM_CHn_UDMR_UpCount            (0x0ul)
@@ -284,6 +285,9 @@ void PWM_CH7_ClearMatchInt(void);
 void PWM_CH7_ClearOverflowInt(void);
 void PWM_CH7_ClearCaptureInt(void);
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif //__W7500X_PWM_H
 

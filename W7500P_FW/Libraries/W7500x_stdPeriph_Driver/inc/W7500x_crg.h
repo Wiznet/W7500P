@@ -131,5 +131,10 @@ void CRG_MII_Enable (FunctionalState rx_clk, FunctionalState tx_clk);
 void    CRG_SetMonitoringClock  (uint32_t value);
 uint32_t CRG_GetMonitoringClock  (void);
 
+
+#ifdef __cplusplus
+}
+#endif
+
 #endif
 
