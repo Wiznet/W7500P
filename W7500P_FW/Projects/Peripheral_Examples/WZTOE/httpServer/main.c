@@ -20,7 +20,14 @@
  */ 
 /* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_gpio.h"
+#include "W7500x_uart.h"
+#include "W7500x_crg.h"
+#include "W7500x_wztoe.h"
+#include "W7500x_miim.h"
+#include "httpServer.h"
+#include "loopback.h"
+#include "webpage.h"
 
 /* Private typedef -----------------------------------------------------------*/
 

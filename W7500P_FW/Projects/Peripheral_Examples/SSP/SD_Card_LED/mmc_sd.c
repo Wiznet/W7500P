@@ -1,6 +1,7 @@
 
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_gpio.h"
+#include "W7500x_ssp.h"
 #include "mmc_sd.h"
 
 uint8_t SD_Type = 0; // SD card type

@@ -21,7 +21,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_uart.h"
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 #define TxBufferSize   (countof(TxBuffer) - 1)

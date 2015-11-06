@@ -21,7 +21,9 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_gpio.h"
+#include "W7500x_ssp.h"
+#include "W7500x_uart.h"
 #include "mmc_sd.h"
 
 /* Private typedef -----------------------------------------------------------*/

@@ -20,9 +20,17 @@
  */ 
 /* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_gpio.h"
+#include "W7500x_uart.h"
+#include "W7500x_crg.h"
+#include "W7500x_wztoe.h"
+#include "W7500x_miim.h"
+
 //#include "W7500x_it.h"
 #include "loopback.h"
+#include "dhcp.h"
+#include "socket.h"
+
 /* Private typedef -----------------------------------------------------------*/
 UART_InitTypeDef UART_InitStructure;
 

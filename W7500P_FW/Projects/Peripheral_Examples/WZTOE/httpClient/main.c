@@ -20,7 +20,11 @@
   */ 
 /* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+#include "W7500x_gpio.h"
+#include "W7500x_uart.h"
+#include "W7500x_crg.h"
+#include "W7500x_wztoe.h"
+#include "W7500x_miim.h"
 #include "../../../../ioLibrary/Ethernet/wizchip_conf.h"
 #include "../../../../ioLibrary/Internet/DHCP/dhcp.h"
 #include "../../../../ioLibrary/Internet/DNS/dns.h"
