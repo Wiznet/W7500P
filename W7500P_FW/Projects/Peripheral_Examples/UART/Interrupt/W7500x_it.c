@@ -20,8 +20,8 @@
   */ 
 
 /* Includes ------------------------------------------------------------------*/
-#include "W7500x.h"
-
+#include "W7500x_it.h"
+#include "W7500x_uart.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -106,12 +106,10 @@ void SSP1_Handler(void)
 uint32_t uart0_tx_cnt=0;
 uint32_t uart0_rx_cnt=0;
 void UART0_Handler(void)
-{
-    uint8_t ch;
-    
+{    
     if(UART_GetITStatus(UART0,UART_IT_FLAG_RXI))
     {
-        ch = UART_ReceiveData(UART0);
+        UART_ClearITPendingBit(UART0,UART_IT_FLAG_RXI);
         uart0_rx_cnt++;
     }
     else if(UART_GetITStatus(UART0,UART_IT_FLAG_TXI))
@@ -130,12 +128,10 @@ void UART0_Handler(void)
 uint32_t uart1_tx_cnt=0;
 uint32_t uart1_rx_cnt=0;
 void UART1_Handler(void)
-{
-    uint8_t ch;
-    
+{   
     if(UART_GetITStatus(UART1,UART_IT_FLAG_RXI))
     {
-        ch = UART_ReceiveData(UART1);
+        UART_ClearITPendingBit(UART1,UART_IT_FLAG_RXI);
         uart1_rx_cnt++;
     }
     else if(UART_GetITStatus(UART1,UART_IT_FLAG_TXI))

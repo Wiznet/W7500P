@@ -3,7 +3,7 @@
   * @file    Uart/Interrupt/main.c 
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   Main program body
   ******************************************************************************
   * @attention
@@ -21,7 +21,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
-#include "W7500x.h"
+
+#include "W7500x_gpio.h"
+#include "W7500x_uart.h"
+
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -46,11 +49,24 @@ UART_InitTypeDef UART_InitStructure;
 
 int main()
 {
-    uint32_t i;
-  
-
+    uint32_t i;  
+    
+//    *(volatile uint32_t *)(0x41001014) = 0x0060100; //clock setting 48MHz
+    
     /*System clock configuration*/
 	SystemInit();
+
+    
+    /* CLK OUT Set */
+//    PAD_AFConfig(PAD_PA,GPIO_Pin_2, PAD_AF2); // PAD Config - CLKOUT used 3nd Function
+    
+    GPIO_Configuration(GPIOA, GPIO_Pin_7, GPIO_Mode_IN,PAD_AF1); // CTS1(DSR) 
+    GPIO_Configuration(GPIOA, GPIO_Pin_8, GPIO_Mode_OUT,PAD_AF1); // RTS1(DTR)
+    GPIO_ResetBits(GPIOA, GPIO_Pin_8); // RTS1(DTR)        
+             
+    GPIO_Configuration(GPIOA, GPIO_Pin_9, GPIO_Mode_AF,PAD_AF2); // TXD1
+    GPIO_Configuration(GPIOA, GPIO_Pin_10, GPIO_Mode_AF,PAD_AF2); // RXD1
+
 
     /*using debugging*/
     S_UART_Init(115200);
@@ -72,13 +88,13 @@ int main()
     NVIC_EnableIRQ(UART1_IRQn);
     /*send the data from UART0 to UART1*/    
     printf("Send UART0\r\n");
-    for(i=0;i<409600;i++)
+    for(i=0;i<99;i++)
     {
         UartPutc(UART0,(uint8_t)i);
     }
     /*send the data from UART1 to UART0*/    
     printf("Send UART1\r\n");
-    for(i=0;i<409600;i++)
+    for(i=0;i<99;i++)
     {
         UartPutc(UART1,(uint8_t)i);
     }
