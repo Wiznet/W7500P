@@ -220,6 +220,10 @@ int8_t connect(uint8_t sn, uint8_t * addr, uint16_t port)
 #endif
             return SOCKERR_TIMEOUT;
         }
+        if (getSn_SR(sn) == SOCK_CLOSED)
+        {
+            return SOCKERR_SOCKCLOSED;
+        }
     }
 #if _WIZCHIP_ == 5200   // for W5200 ARP errata 
     setSUBR((uint8_t*)"\x00\x00\x00\x00");
