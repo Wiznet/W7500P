@@ -187,8 +187,8 @@ int32_t phy_id(void)
 {
     int32_t data;
     int i=0;
-
-    for(i=1; i<8; i+=2)
+		while(1) {
+    for(i=0; i<8; i+=1)
     {
         /* 32 Consecutive ones on MDO to establish sync */
         //printf("mdio read - sync \r\n");
@@ -217,18 +217,15 @@ int32_t phy_id(void)
         /* turnaround MDO is tristated */
         //printf("mdio read - idle \r\n");
         idle_MDIO(GPIOB);
-        
-        if(data == (0x7849) || data == (0x786D))
-        {
-            /*For DEBUG*/
-            //printf("\t PHY_Addr = %d , STATUS = %x\r\n",i,data);  //right : 0x7869
-            
-            return i;
-        }
+				
+         /*For DEBUG*/        
+        //printf("\r\nPHY_ID = %d , STATUS = %x",i,data);  //right : 0x7869				
+        if(data != 0) return i;
     }
-    while(1){printf("phy id detect error!!\r\n");}
+    printf("\r\nphy id detect error!!\r\n");
+	}
     
-    return 0;
+   // return 0;
     
 }
 
