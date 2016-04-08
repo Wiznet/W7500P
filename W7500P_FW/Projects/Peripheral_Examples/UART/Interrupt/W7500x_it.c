@@ -3,7 +3,7 @@
   * @file    DualTimer/TimerRun/W7500x_it.c
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains the headers of the interrupt handlers.
   ******************************************************************************
   * @attention
@@ -106,10 +106,13 @@ void SSP1_Handler(void)
 uint32_t uart0_tx_cnt=0;
 uint32_t uart0_rx_cnt=0;
 void UART0_Handler(void)
-{    
+{
+    uint8_t ch;
+    
     if(UART_GetITStatus(UART0,UART_IT_FLAG_RXI))
     {
         UART_ClearITPendingBit(UART0,UART_IT_FLAG_RXI);
+        ch = UART_ReceiveData(UART0);
         uart0_rx_cnt++;
     }
     else if(UART_GetITStatus(UART0,UART_IT_FLAG_TXI))
@@ -128,10 +131,13 @@ void UART0_Handler(void)
 uint32_t uart1_tx_cnt=0;
 uint32_t uart1_rx_cnt=0;
 void UART1_Handler(void)
-{   
+{
+    uint8_t ch;
+    
     if(UART_GetITStatus(UART1,UART_IT_FLAG_RXI))
     {
         UART_ClearITPendingBit(UART1,UART_IT_FLAG_RXI);
+        ch = UART_ReceiveData(UART1);
         uart1_rx_cnt++;
     }
     else if(UART_GetITStatus(UART1,UART_IT_FLAG_TXI))
