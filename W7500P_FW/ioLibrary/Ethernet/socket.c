@@ -6,6 +6,9 @@
 //! \version 1.0.3
 //! \date 2013/10/21
 //! \par  Revision history
+//!       <2016/04/11> V1.0.4. Refer to M20160411 // by justinkim
+//!         1.not having break statements -> break statements added
+//!         2.errata correct typos
 //!       <2014/05/01> V1.0.3. Refer to M20140501
 //!         1. Implicit type casting -> Explicit type casting.
 //!         2. replace 0x01 with PACK_REMAINED in recvfrom()
@@ -52,12 +55,12 @@
 #include "socket.h"
 #include "W7500x_wztoe.h"
 
-#define SOCK_ANY_PORT_NUM  0xC000;
+#define SOCK_ANY_PORT_NUM  (0xC000) //M20160411
 
 static uint16_t sock_any_port = SOCK_ANY_PORT_NUM;
 static uint16_t sock_io_mode = 0;
 static uint16_t sock_is_sending = 0;
-static uint16_t sock_remained_size[_WIZCHIP_SOCK_NUM_] = {0,0,};
+static uint16_t sock_remained_size[_WIZCHIP_SOCK_NUM_] = {0,}; //M20160411
 static uint8_t  sock_pack_info[_WIZCHIP_SOCK_NUM_] = {0,};
 
 #if _WIZCHIP_ == 5200
@@ -220,7 +223,7 @@ int8_t connect(uint8_t sn, uint8_t * addr, uint16_t port)
 #endif
             return SOCKERR_TIMEOUT;
         }
-        if (getSn_SR(sn) == SOCK_CLOSED)
+        if(getSn_SR(sn) == SOCK_CLOSED)
         {
             return SOCKERR_SOCKCLOSED;
         }
@@ -385,7 +388,7 @@ int32_t sendto(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16_t
     if(tmp != SOCK_MACRAW && tmp != SOCK_UDP) return SOCKERR_SOCKSTATUS;
 
     //setSn_DIPR(sn,taddr);	
-		setSn_DIPR(sn,addr);
+	setSn_DIPR(sn,addr);
     setSn_DPORT(sn,port); 
 		
     freesize = getSn_TxMAX(sn);
@@ -589,6 +592,7 @@ int8_t  ctlsocket(uint8_t sn, ctlsock_type cstype, void* arg)
             break;
         case CS_GET_INTMASK:   
             *((uint8_t*)arg) = getSn_IMR(sn);
+            break; //M20160411
         default:
             return SOCKERR_ARG;
     }
@@ -664,6 +668,7 @@ int8_t  getsockopt(uint8_t sn, sockopt_type sotype, void* arg)
             break;
         case SO_MSS:   
             *(uint8_t*) arg = getSn_MSSR(sn);
+            break; //M20160411
         case SO_DESTIP:
 					  getSn_DIPR(sn, (uint8_t*)arg);
             break;
@@ -678,8 +683,10 @@ int8_t  getsockopt(uint8_t sn, sockopt_type sotype, void* arg)
 #endif      
         case SO_SENDBUF:
             *(uint16_t*) arg = getSn_TX_FSR(sn);
+            break; //M20160411
         case SO_RECVBUF:
             *(uint16_t*) arg = getSn_RX_RSR(sn);
+            break; //M20160411
         case SO_STATUS:
             *(uint8_t*) arg = getSn_SR(sn);
             break;
