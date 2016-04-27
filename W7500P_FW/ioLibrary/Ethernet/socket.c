@@ -190,11 +190,8 @@ int8_t listen(uint8_t sn)
     while(getSn_CR(sn));
     while(getSn_SR(sn) != SOCK_LISTEN)
     {
-        if(getSn_CR(sn) == SOCK_CLOSED)
-        {
-            close(sn);
-            return SOCKERR_SOCKCLOSED;
-        }
+        close(sn);
+        return SOCKERR_SOCKCLOSED;
     }
     return SOCK_OK;
 }
