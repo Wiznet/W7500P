@@ -87,7 +87,7 @@ typedef enum
 {
     GPIO_Mode_IN    = 0x00, /*!< GPIO Input Mode                 */
     GPIO_Mode_OUT   = 0x01, /*!< GPIO Output Mode                */
-    GPIO_Mode_AF    = 0x02, /*!< GPIO Alternate function Mode    */
+    GPIO_Mode_AF    = 0x02 /*!< GPIO Alternate function Mode    */
 }GPIOMode_TypeDef;
 
 typedef enum
