@@ -201,7 +201,7 @@ uint8_t GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
     return bitstatus;
 }
 
-uint8_t GPIO_ReadInputData(GPIO_TypeDef* GPIOx)
+uint16_t GPIO_ReadInputData(GPIO_TypeDef* GPIOx)
 {
     assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
     return ((uint16_t)GPIOx->DATA);
