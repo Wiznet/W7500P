@@ -52,7 +52,7 @@ typedef struct
 
 
 #define IS_DUALTIMER_TimerMode(MODE)        (MODE <= 1) 
-#define IS_DUALTIMER_TimerPre(PREE)         (PRE <= 2) 
+#define IS_DUALTIMER_TimerPre(PRE)         (PRE <= 2) 
 #define IS_DUALTIMER_TimerSize(SIZE)        (SIZE <= 1) 
 #define IS_DUALTIMER_OneShot(ONESHOT)       (ONESHOT <= 1)
 
