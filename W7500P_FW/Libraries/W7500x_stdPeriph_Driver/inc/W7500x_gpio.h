@@ -142,7 +142,7 @@ typedef enum
     PAD_AF3    = Px_AFSR_AF3
 }PAD_AF_TypeDef;
 
-#define IS_PAD_TYPE(Px)  (((Px) == PAD_PA) || ((Px) == PAD_PB) \
+#define IS_PAD_TYPE(Px)  (((Px) == PAD_PA) || ((Px) == PAD_PB) || \
                           ((Px) == PAD_PC))
 
 #define IS_PA_NUM(NUM) (((NUM)>=0) && ((NUM)<15))
