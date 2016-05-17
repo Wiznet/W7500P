@@ -121,7 +121,8 @@ typedef struct
 #define UART_Mode_Rx                ((uint16_t)(UART_CR_RXE))
 #define UART_Mode_Tx                ((uint16_t)(UART_CR_TXE))
 #define IS_UART_MODE(MODE)          (((MODE) == UART_Mode_Rx) || \
-                                     ((MODE) == UART_Mode_Tx))
+                                     ((MODE) == UART_Mode_Tx) || \
+                                     ((MODE) == (URAT_Mode_Rx | UART_Mode_Tx)))
 
 /**
   * @}
