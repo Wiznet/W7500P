@@ -61,7 +61,7 @@ void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDI
 {
     /* Set GPIOs for MDIO and MDC */
     GPIO_InitTypeDef GPIO_InitDef;  
-		
+	GPIO_StructInit(&GPIO_InitDef); // init the structure	
     GPIO_InitDef.GPIO_Pin = GPIO_Pin_MDC | GPIO_Pin_MDIO;
     GPIO_InitDef.GPIO_Mode = GPIO_Mode_OUT;
     GPIO_Init(GPIOx, &GPIO_InitDef);
