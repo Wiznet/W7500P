@@ -146,7 +146,8 @@ typedef enum
                           ((Px) == PAD_PC))
 
 #define IS_PA_NUM(NUM) (((NUM)>=0) && ((NUM)<15))
-#define IS_PB_NUM(NUM) (((NUM)>=0) && ((NUM)<7))
+#define IS_PB_NUM(NUM) ((((NUM)>=0) && ((NUM)<7)) || (((NUM)>=14) && ((NUM)<16))) /* MDIO+MDC on 14+15*/
+
 #define IS_PC_NUM(NUM) ((((NUM)>=0) && ((NUM)<7)) || (((NUM)>=8) && ((NUM)<16)))
 
 #define IS_PAD_AF(AF)       (((AF) == PAD_AF0) || ((AF) == PAD_AF1) || \
