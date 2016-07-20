@@ -68,10 +68,6 @@ void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDI
 
     PAD_AFConfig(PAD_PB, GPIO_Pin_MDIO, PAD_AF1);  
     PAD_AFConfig(PAD_PB, GPIO_Pin_MDC, PAD_AF1);  
-#ifdef __W7500P__
-    mdio_write(GPIOB,20,1);
-    mdio_write(GPIOB,23,0x8000);
-#endif
     
     PHY_ADDR = (phy_id());
 
