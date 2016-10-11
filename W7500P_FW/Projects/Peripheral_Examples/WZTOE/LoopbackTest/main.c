@@ -83,6 +83,7 @@ int main()
 
     /* Configure UART2 */
 	S_UART_Init(115200);
+    printf("run \r\n");  
     /* SysTick_Config */
     SysTick_Config((GetSystemClock()/1000));
 
@@ -106,6 +107,7 @@ int main()
 #ifdef __DEF_USED_MDIO__ 
     /* mdio Init */
     mdio_init(GPIOB, MDC, MDIO);
+    mdio_error_check(GPIOB, MDC, MDIO);
     
 //    printf("%d \r\n", PHY_ADDR);
     /* PHY Link Check via gpio mdio */

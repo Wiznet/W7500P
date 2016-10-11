@@ -195,7 +195,8 @@ int main(void) {
  
 #ifdef __DEF_USED_MDIO__ 
     /* mdio Init */
- mdio_init(GPIOB, MDC, MDIO );
+    mdio_init(GPIOB, MDC, MDIO );
+    mdio_error_check(GPIOB, MDC, MDIO);
     /* PHY Link Check via gpio mdio */
     while( link() == 0x0 )
     {

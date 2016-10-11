@@ -70,7 +70,22 @@ void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDI
     PAD_AFConfig(PAD_PB, GPIO_Pin_MDC, PAD_AF1);  
     
     PHY_ADDR = (phy_id());
+}
 
+void mdio_error_check(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO)
+{
+    mdio_write(GPIOx,20,16); //Phy ID read
+    //printf("@ 16P_29 : 0x%X\r\n",mdio_read(GPIOB,29));
+    if((mdio_read(GPIOx,29) != 0x882) && (mdio_read(GPIOx,29) != 0x782) && (mdio_read(GPIOx,29) != 0x382))
+    {
+        delay(1000);
+        mdio_write(GPIOx,20,1); mdio_write(GPIOx,22,0xA020); // LDO disable
+        mdio_write(GPIOx,20,1); mdio_write(GPIOx,22,0x2020); // LDO enalble
+        mdio_init(GPIOx, GPIO_Pin_MDC, GPIO_Pin_MDIO);
+        while( link() == 0x0) printf(".");
+        mdio_write(GPIOx,20,16); mdio_write(GPIOx,29,0x882); // Change PHY id to 0x882
+        mdio_init(GPIOx, GPIO_Pin_MDC, GPIO_Pin_MDIO);
+    }
 }
 
 
