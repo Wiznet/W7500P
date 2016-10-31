@@ -212,7 +212,7 @@ int32_t phy_id(void)
     int32_t data;
     int i=0;
 		while(1) {
-    for(i=0; i<8; i+=1)
+    for(i=1; i<8; i+=2)
     {
         /* 32 Consecutive ones on MDO to establish sync */
         //printf("mdio read - sync \r\n");
