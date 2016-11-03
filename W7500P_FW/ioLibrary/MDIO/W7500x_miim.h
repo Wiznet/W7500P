@@ -43,7 +43,7 @@ typedef enum
 
 int32_t phy_id(void);
 void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO);
-void mdio_error_check(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO);
+//void mdio_error_check(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO); //need verify...
 void mdio_write(GPIO_TypeDef* GPIOx, uint32_t PhyRegAddr, uint32_t val);
 uint32_t mdio_read(GPIO_TypeDef* GPIOx, uint32_t PhyRegAddr);
 uint32_t link(void);

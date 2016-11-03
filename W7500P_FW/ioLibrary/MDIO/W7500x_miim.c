@@ -71,9 +71,10 @@ void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDI
     
     PHY_ADDR = (phy_id());
 }
-
+/* need verify...
 void mdio_error_check(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO)
 {
+    mdio_init(GPIOB, MDC, MDIO);
     mdio_write(GPIOx,20,16); //Phy ID read
     //printf("@ 16P_29 : 0x%X\r\n",mdio_read(GPIOB,29));
     if((mdio_read(GPIOx,29) != 0x882) && (mdio_read(GPIOx,29) != 0x782) && (mdio_read(GPIOx,29) != 0x382))
@@ -86,7 +87,9 @@ void mdio_error_check(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_
         mdio_write(GPIOx,20,16); mdio_write(GPIOx,29,0x882); // Change PHY id to 0x882
         mdio_init(GPIOx, GPIO_Pin_MDC, GPIO_Pin_MDIO);
     }
-}
+    while( link() == 0x0) printf(".");
+    printf("PHY is linked. \r\n");  
+}*/
 
 
 void output_MDIO(GPIO_TypeDef* GPIOx, uint32_t val, uint32_t n)
@@ -212,7 +215,7 @@ int32_t phy_id(void)
     int32_t data;
     int i=0;
 		while(1) {
-    for(i=1; i<8; i+=2)
+    for(i=0; i<8; i++)
     {
         /* 32 Consecutive ones on MDO to establish sync */
         //printf("mdio read - sync \r\n");
@@ -244,7 +247,7 @@ int32_t phy_id(void)
 				
          /*For DEBUG*/        
         //printf("\r\nPHY_ID = %d , STATUS = %x",i,data);  //right : 0x7869				
-        if(data != 0) return i;
+        if((data != 0x0000)&&(data != 0xFFFF)) return i;
     }
     printf("\r\nphy id detect error!!\r\n");
 	}
