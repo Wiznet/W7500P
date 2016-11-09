@@ -186,7 +186,7 @@ typedef struct
   __IO  uint32_t  PWM4CLK_PVSR;       /*!< PWM4CLK prescale value select register,       Address offset : 0xf4 */     
         uint32_t  RESERVED11[2];
   __IO  uint32_t  PWM5CLK_SSR;        /*!< PWM5CLK source select register,               Address offset : 0x100 */     
-  __IO  uint32_t  PWM5LK_PVSR;        /*!< PWM5CLK prescale value select register,       Address offset : 0x104 */     
+  __IO  uint32_t  PWM5CLK_PVSR;        /*!< PWM5CLK prescale value select register,       Address offset : 0x104 */     
         uint32_t  RESERVED12[2];
   __IO  uint32_t  PWM6CLK_SSR;        /*!< PWM6CLK source select register,               Address offset : 0x110 */     
   __IO  uint32_t  PWM6CLK_PVSR;       /*!< PWM6CLK prescale value select register,       Address offset : 0x114 */     
