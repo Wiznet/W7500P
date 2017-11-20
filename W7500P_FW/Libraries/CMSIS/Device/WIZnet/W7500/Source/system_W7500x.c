@@ -51,7 +51,22 @@ uint32_t SystemCoreClock = 0;    /*!< Processor Clock Frequency            */
  *----------------------------------------------------------------------------*/
 void SystemCoreClockUpdate (void)            /* Get Core Clock Frequency      */
 {
-  //SystemCoreClock = XTAL;
+    uint8_t M,N,OD;
+
+#ifdef SYSCLK_EXTERN_OSC
+    CRG->PLL_IFSR = CRG_PLL_IFSR_OCLK;
+#else
+    CRG->PLL_IFSR = CRG_PLL_IFSR_RCLK;
+#endif    
+    OD = (1 << (CRG->PLL_FCR & 0x01)) * (1 << ((CRG->PLL_FCR & 0x02) >> 1));
+    N = (CRG->PLL_FCR >>  8 ) & 0x3F;
+    M = (CRG->PLL_FCR >> 16) & 0x3F;
+
+#ifdef SYSCLK_EXTERN_OSC
+    SystemCoreClock = EXTERN_XTAL * M / N * 1 / OD;
+#else
+    SystemCoreClock = INTERN_XTAL * M / N * 1 / OD;
+#endif
 }
 
 uint32_t GetSystemClock()
