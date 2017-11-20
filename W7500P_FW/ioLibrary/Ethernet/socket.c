@@ -1,12 +1,12 @@
 /*******************************************************************************************************************************************************
- * Copyright ¨Ï 2016 <WIZnet Co.,Ltd.> 
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¡°Software¡±), 
+ * Copyright ¡§I 2016 <WIZnet Co.,Ltd.> 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¢®¡ÆSoftware¢®¡¾), 
  * to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
  * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- * THE SOFTWARE IS PROVIDED ¡°AS IS¡±, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+ * THE SOFTWARE IS PROVIDED ¢®¡ÆAS IS¢®¡¾, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
  * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
@@ -16,12 +16,16 @@
 //! \file socket.c
 //! \brief SOCKET APIs Implements file.
 //! \details SOCKET APIs like as Berkeley Socket APIs. 
-//! \version 1.0.3
-//! \date 2013/10/21
+//! \version 1.0.5
+//! \date 2017/04/20
 //! \par  Revision history
+//!       <2017/04/20> V1.0.5 // by Eric Jung
+//!         Several functions have been changed to fix the abnormal operation at MACRAW mode receive.
+//!         1. recvfrom(): The wiz_recv_data() function has been replaced by the wiz_recv_macraw_data() function for MACRAW mode only.
+//!         2. sendto(): Changed to not check for IP invalid error and port zero error in MACRAW mode
 //!       <2016/04/11> V1.0.4. Refer to M20160411 // by justinkim
-//!         1.not having break statements -> break statements added
-//!         2.errata correct typos
+//!         1. not having break statements -> break statements added
+//!         2. errata correct typos
 //!       <2014/05/01> V1.0.3. Refer to M20140501
 //!         1. Implicit type casting -> Explicit type casting.
 //!         2. replace 0x01 with PACK_REMAINED in recvfrom()
@@ -369,9 +373,11 @@ int32_t sendto(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16_t
 {
     uint8_t tmp = 0;
     uint16_t freesize = 0;
-        uint32_t taddr;
+    uint32_t taddr;
     CHECK_SOCKNUM();
-    switch(getSn_MR(sn) & 0x0F)
+    
+    tmp = (getSn_MR(sn) & 0x0F);
+    switch(tmp)
     {
         case Sn_MR_UDP:
         case Sn_MR_MACRAW:
@@ -389,18 +395,15 @@ int32_t sendto(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16_t
         taddr = (taddr << 8) + ((uint32_t)addr[3] & 0x000000FF);
     }
     
-    //if(*((uint32_t*)addr) == 0) return SOCKERR_IPINVALID;
-    if(taddr == 0) return SOCKERR_IPINVALID;
-    //if( (addr[0]==0) && (addr[1]==0) && (addr[2]==0) && (addr[3]==0)) return SOCKERR_IPINVALID;
-
-    if(port == 0)               return SOCKERR_PORTZERO;
+    if((taddr == 0)&(tmp != Sn_MR_MACRAW)) return SOCKERR_IPINVALID;
+    if((port  == 0)&(tmp != Sn_MR_MACRAW)) return SOCKERR_PORTZERO;
+    
     tmp = getSn_SR(sn);
     if(tmp != SOCK_MACRAW && tmp != SOCK_UDP) return SOCKERR_SOCKSTATUS;
-
-    //setSn_DIPR(sn,taddr);	
-	setSn_DIPR(sn,addr);
-    setSn_DPORT(sn,port); 
-		
+    
+    setSn_DIPR(sn, addr);
+    setSn_DPORT(sn, port); 
+   
     freesize = getSn_TxMAX(sn);
     if (len > freesize) len = freesize; // check size not to exceed MAX size.
     while(1)
@@ -419,7 +422,7 @@ int32_t sendto(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16_t
     setSn_CR(sn,Sn_CR_SEND);
     /* wait to process the command... */
     while(getSn_CR(sn));
-		
+
 #if _WIZCHIP_ == 5200   // for W5200 ARP errata 
     setSUBR((uint8_t*)"\x00\x00\x00\x00");
 #endif
@@ -503,7 +506,7 @@ int32_t recvfrom(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16
             //
             // Need to packet length check (default 1472)
             //
-            wiz_recv_data(sn, buf, pack_len); // data copy.
+            wiz_recv_data(sn, buf, pack_len); // data copy
             break;
         case Sn_MR_MACRAW :
             if(sock_remained_size[sn] == 0)
@@ -514,7 +517,7 @@ int32_t recvfrom(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16
                 // read peer's IP address, port number & packet length
                 sock_remained_size[sn] = head[0];
                 sock_remained_size[sn] = (sock_remained_size[sn] <<8) + head[1];
-                if(sock_remained_size[sn] > 1514) 
+                if(sock_remained_size[sn] > 1516)
                 {
                     close(sn);
                     return SOCKFATAL_PACKLEN;
@@ -523,7 +526,8 @@ int32_t recvfrom(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16
             }
             if(len < sock_remained_size[sn]) pack_len = len;
             else pack_len = sock_remained_size[sn];
-            wiz_recv_data(sn,buf,pack_len);
+            
+            wiz_recv_macraw_data(sn, buf, pack_len); // data copy
             break;
 #if ( _WIZCHIP_ < 5200 )
         case Sn_MR_IPRAW:
@@ -545,11 +549,11 @@ int32_t recvfrom(uint8_t sn, uint8_t * buf, uint16_t len, uint8_t * addr, uint16
             //
             if(len < sock_remained_size[sn]) pack_len = len;
             else pack_len = sock_remained_size[sn];
-            wiz_recv_data(sn, buf, pack_len); // data copy.
+            wiz_recv_data(sn, buf, pack_len); // data copy
             break;
 #endif
         default:
-            wiz_recv_ignore(sn, pack_len); // data copy.
+            wiz_recv_ignore(sn, pack_len);
             sock_remained_size[sn] = pack_len;
             break;
     }

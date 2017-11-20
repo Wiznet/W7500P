@@ -1,12 +1,12 @@
 /*******************************************************************************************************************************************************
- * Copyright ¨Ï 2016 <WIZnet Co.,Ltd.> 
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¡°Software¡±), 
+ * Copyright ¡§I 2016 <WIZnet Co.,Ltd.> 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¢®¡ÆSoftware¢®¡¾), 
  * to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
  * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- * THE SOFTWARE IS PROVIDED ¡°AS IS¡±, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+ * THE SOFTWARE IS PROVIDED ¢®¡ÆAS IS¢®¡¾, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
  * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
@@ -127,7 +127,7 @@
 #define SF_TCP_NODELAY         (Sn_MR_ND)          ///< In \ref Sn_MR_TCP, Use to nodelayed ack.
 #define SF_MULTI_ENABLE        (Sn_MR_MULTI)       ///< In \ref Sn_MR_UDP, Enable multicast mode.
 
-#if _WIZCHIP_ == 5500
+#if _WIZCHIP_ >= 5500
    #define SF_BROAD_BLOCK         (Sn_MR_BCASTB)   ///< In \ref Sn_MR_UDP or \ref Sn_MR_MACRAW, Block broadcast packet. Valid only in W5500
    #define SF_MULTI_BLOCK         (Sn_MR_MMB)      ///< In \ref Sn_MR_MACRAW, Block multicast packet. Valid only in W5500
    #define SF_IPv6_BLOCK          (Sn_MR_MIP6B)    ///< In \ref Sn_MR_MACRAW, Block IPv6 packet. Valid only in W5500

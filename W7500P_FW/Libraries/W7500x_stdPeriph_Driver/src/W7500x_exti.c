@@ -16,11 +16,35 @@
   * @file    W7500x_stdPeriph_Driver/src/W7500x_exti.c    
   * @author  IOP Team
   * @version v1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the exti 
   *          firmware library.
   ******************************************************************************
-  *
+  *  @verbatim  
+  *  
+  *          ===================================================================
+  *                                     EXTI features
+  *          ===================================================================
+  *    
+  *          - All functional pads can be used as an external interrupt source regardless 
+  *          of any set of pad function.
+  *					- External Interrupt controller has the following functions and can be controlled by registers.
+  *							1. Interrupt mask (enable or disable, default : disable)
+  *							2. Interrupt polarity (rising or falling, default : rising)
+  *        
+  *          ===================================================================
+  *                                 How to use this driver
+  *          ===================================================================  
+  *              
+  *          In order to use an I/O pin as an external interrupt source, follow
+  *          steps below:
+  *            1- Configure the I/O in input mode using GPIO_Init()
+  *            2- Select the PAD(A..D), GPIO_pin(case PA,PB,PC : 0..15, case PD : 0..4), 
+  *                 mode(interrupt, event) and configure the trigger selection (Rising, falling) using  EXTI_Init()
+  *            3- Configure NVIC IRQ channel mapped to the EXTI using NVIC_EnableIRQ(EXTI_IRQn)
+	*					  4- Implement the function you want using EXTI_Handler() in W7500x_it.c
+  *          
+  *  @endverbatim                  
   ******************************************************************************
   */
 
@@ -28,6 +52,28 @@
 #include "W7500x_exti.h"
 #include "W7500x_gpio.h"
 
+
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @defgroup EXTI 
+  * @brief EXTI driver modules
+  * @{
+  */
+	
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/
+/* Private functions ---------------------------------------------------------*/
+
+/** @defgroup EXTI_Private_Functions
+  * @{
+  */ 	
+	
 /**
   * @brief  Deinitializes the EXTI peripheral registers to their default reset values.
   * @param  None
@@ -53,6 +99,7 @@ void EXTI_DeInit(void)
 /**
   * @brief  Initializes the EXTI peripheral according to the specified
   *         parameters in the EXTI_InitStruct.
+  * @param  Px: where x can be (A..D) to select the PAD peripheral.
   * @param  EXTI_InitStruct: pointer to a EXTI_InitTypeDef structure
   *         that contains the configuration information for the EXTI peripheral.
   * @retval None
@@ -62,6 +109,8 @@ void EXTI_Init(PAD_Type Px, EXTI_InitTypeDef* EXTI_InitStruct)
     uint32_t pinpos = 0x00, pos = 0x00, currentpin = 0x00, loop = 16;
     P_Port_Def *px_exti;
 
+	
+		/* Check the parameters */
     assert_param(IS_PAD_TYPE(Px));
 
     if      (Px == PAD_PA)        
@@ -85,9 +134,11 @@ void EXTI_Init(PAD_Type Px, EXTI_InitTypeDef* EXTI_InitStruct)
 
         currentpin = (EXTI_InitStruct->EXTI_Line) & pos;
         if(currentpin == pos)
-        {   
+        {
+						/* Set interrupt enable */
             px_exti->Port[pinpos] |= EXTI_Px_INTEN_ENABLE;
 
+						/* Select the trigger for the selected external interrupts */
             if(EXTI_InitStruct->EXTI_Trigger == EXTI_Trigger_Rising)
                 px_exti->Port[pinpos] |=  EXTI_Px_INTPOR_RISING_EDGE;
             else
@@ -97,13 +148,29 @@ void EXTI_Init(PAD_Type Px, EXTI_InitTypeDef* EXTI_InitStruct)
 
 }
 
+
+
+/**
+  * @brief  Set Polarity for the selected PAD's pin.
+  * @param  Px: where x can be (A..D) to select the PAD peripheral.
+  * @param  GPIO_Pin: specifies the port bit to set.
+	*          This parameter can be one of  GPIO_Pin_x where x can be (0..15), except for GPIOD that can be one of (0..5). 
+  * @param  Polarity: specifies the value that select the trigger for the selected external interrupts.
+	*								@arg	EXTI_Trigger_Rising: Rising edge
+	*								@arg	EXTI_Trigger_Falling: Falling edge
+  * @retval None
+  */
 void EXTI_Polarity_Set(PAD_Type Px, uint16_t GPIO_Pin, uint16_t Polarity )
 {
     uint32_t pinpos = 0x00, pos = 0x00, currentpin = 0x00, loop = 16;
     P_Port_Def *px_exti;
 
+	
+		/* Check the parameters */
     assert_param(IS_PAD_TYPE(Px));
-
+	//A170223 becky
+	assert_param(IS_GET_GPIO_PIN(GPIO_Pin));
+	assert_param(IS_EXTI_TRIGGER(Polarity));
    
     if      (Px == PAD_PA)        
 		{
@@ -150,12 +217,24 @@ void EXTI_StructInit(EXTI_InitTypeDef* EXTI_InitStruct)
   EXTI_InitStruct->EXTI_Trigger = EXTI_Trigger_Falling;
 }
 
+
+
+
+
+/**
+  * @brief  Checks whether the specified EXTI is asserted or not.
+  * @param  Px: specifies the PAD to check.
+  *          This parameter can be PAD_Px where x can be(A..D)
+  * @retval The new state of EXTI (SET or RESET).
+  */
 uint16_t EXTI_Px_GetEXTEN(PAD_Type Px)
 {
     uint32_t i, loop = 16;
 	  uint16_t ret=0;
     P_Port_Def *px_exti;
 
+	
+		/* Check the parameter */
     assert_param(IS_PAD_TYPE(Px));
 
     
@@ -175,6 +254,8 @@ uint16_t EXTI_Px_GetEXTEN(PAD_Type Px)
         loop = 16;
 		}
 
+		
+	/* Return the External Interrupt Enable value */
     for(i = 0x00; i < loop; i++)
     {
              ret |= (((px_exti->Port[i]&0x2)>>1)<<i);
@@ -182,12 +263,23 @@ uint16_t EXTI_Px_GetEXTEN(PAD_Type Px)
 		return ret;
 }
 
+
+
+
+/**
+  * @brief  Checks whether the specified EXTI is Falling edge or Rising edge.
+  * @param  Px: specifies the PAD to check.
+  *          This parameter can be PAD_Px where x can be(A..D)
+  * @retval The Polarity of EXTI (Faliing or Rising).
+  */
 uint16_t EXTI_Px_GetEXTINTPOL(PAD_Type Px)
 {
     uint32_t i, loop = 16;
 	uint16_t ret=0;
     P_Port_Def *px_exti;
 
+	
+	/* Check the parameter */
     assert_param(IS_PAD_TYPE(Px));
 
     

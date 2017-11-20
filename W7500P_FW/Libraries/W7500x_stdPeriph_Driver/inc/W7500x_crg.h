@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_crg.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the crg 
   *          firmware library.
   ******************************************************************************
@@ -35,6 +35,16 @@
 /* Includes ------------------------------------------------------------------*/
 #include "W7500x.h"
 
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup CRG
+  * @{
+  */ 
+  
+  
 // It will be in W7500x_crg.h
 typedef enum { CRG_CLK_DIS = 0, CRG_MCLK, CRG_RCLK, CRG_OCLK } CRG_CLK_SOURCE;
 typedef enum { CRG_CLK_HIGH = 0, CRG_CLK_LOW }  CRG_CLK_LOW_SOURCE;
@@ -151,3 +161,10 @@ uint32_t CRG_GetMonitoringClock  (void);
 
 #endif
 
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */

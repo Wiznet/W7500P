@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_pwm.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the pwm 
   *          firmware library.
   ******************************************************************************
@@ -35,6 +35,16 @@
 /* Includes ------------------------------------------------------------------*/
 #include "W7500x.h"
 
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup PWM
+  * @{
+  */        
+  
+  
 typedef struct
 {
     uint32_t    PWM_CHn_PR;   //Prescale register
@@ -176,7 +186,8 @@ typedef struct
 
 
 
-#define IS_PWM_PR_FILTER(MAXVAL)        (MAXVAL <= 0x1F)
+//M20170223 becky 1F -> 3F  (PR uses [5:0]bits) 
+#define IS_PWM_PR_FILTER(MAXVAL)        (MAXVAL <= 0x3F)
                                      
 
 #define PWM_CHn_UDMR_UpCount            (0x0ul)
@@ -188,7 +199,10 @@ typedef struct
 #define PWM_CHn_TCMR_RisingCounterMode  (0x1ul)
 #define PWM_CHn_TCMR_FallingCounterMode (0x2ul)
 #define PWM_CHn_TCMR_BothCounterMode    (0x3ul)
-#define IS_PWM_CHn_TCMR(MODE)          ((MODE == PWM_CHn_TCMR_RisingCounterMode)  || \
+
+//A20170223 becky  add "MODE == PWM_CHn_TCMR_TimerMode"  
+#define IS_PWM_CHn_TCMR(MODE)          ((MODE == PWM_CHn_TCMR_TimerMode) || \
+										(MODE == PWM_CHn_TCMR_RisingCounterMode)  || \
                                         (MODE == PWM_CHn_TCMR_FallingCounterMode) || \
                                         (MODE == PWM_CHn_TCMR_BothCounterMode))
 
@@ -212,9 +226,18 @@ typedef struct
 #define IS_PWM_CHn_PDMR(MODE)          ((MODE == PWM_CHn_PDMR_Periodic) || \
                                         (MODE == PWM_CHn_PDMR_Oneshot))
 
+
+
+
 #define PWM_CHn_DZER_Enable             (0x1ul)             
 #define PWM_CHn_DZER_Disable            (0x0ul)             
-#define PWM_CHn_DZER(ENABLE)           ((ENABLE == PWM_CHn_DZER_Enable) || \
+
+
+
+
+
+//M20170223 becky  (PWM_CHn_DZER - > IS_PWM_CHn_DZER )
+#define IS_PWM_CHn_DZER(ENABLE)           ((ENABLE == PWM_CHn_DZER_Enable) || \
                                         (ENABLE == PWM_CHn_DZER_Disable)) 
 
 #define IS_PWM_Deadznoe(CHn)           (((CHn == PWM_CH0) && (PWM_CH1->DZER == PWM_CHn_DZER_Disable)) || \
@@ -304,3 +327,10 @@ void PWM_CH7_ClearCaptureInt(void);
 
 #endif //__W7500X_PWM_H
 
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */

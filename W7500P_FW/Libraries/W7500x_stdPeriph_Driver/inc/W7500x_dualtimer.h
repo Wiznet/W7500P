@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_dualtimer.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the dualtimer 
   *          firmware library.
   ******************************************************************************
@@ -41,6 +41,15 @@
 /**********************************************************************************************/
 /**********************************************************************************************/
 
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup Dualtimer
+  * @{
+  */ 
+  
 typedef struct
 {
     uint32_t TimerLoad;
@@ -105,3 +114,10 @@ void DUALTIMER_SetTimerBGLoad(DUALTIMER_TypeDef* DUALTIMERn, uint32_t TimerBGLoa
 #endif
 
 #endif //__W7500X_DUALTIMER_H
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */

@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_exti.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the EXTI 
   *          firmware library.
   ******************************************************************************
@@ -35,6 +35,16 @@
 /* Includes ------------------------------------------------------------------*/
 #include "W7500x.h"
 
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup EXTI
+  * @{
+  */ 
+  
+  
 /** 
   * @brief  EXTI mode enumeration  
   */
@@ -95,3 +105,10 @@ uint16_t EXTI_Px_GetEXTINTPOL(PAD_Type Px);
 
 
 #endif //__W7500X_EXTI_H
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */

@@ -1,23 +1,23 @@
 /*******************************************************************************************************************************************************
- * Copyright ¨Ï 2016 <WIZnet Co.,Ltd.> 
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¡°Software¡±), 
- * to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+ * Copyright ¨Ï 2016 <WIZnet Co.,Ltd.>
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¡°Software¡±),
+ * to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
  * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- * THE SOFTWARE IS PROVIDED ¡°AS IS¡±, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
- * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+ * THE SOFTWARE IS PROVIDED ¡°AS IS¡±, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 *********************************************************************************************************************************************************/
 /**
   ******************************************************************************
-  * @file    W7500x_stdPeriph_Driver/src/W7500x_ssp.c    
+  * @file    W7500x_stdPeriph_Driver/src/W7500x_ssp.c
   * @author  IOP Team
   * @version v1.0.0
-  * @date    26-AUG-2015
-  * @brief   This file contains all the functions prototypes for the ssp 
+  * @date    01-May-2015
+  * @brief   This file contains all the functions prototypes for the ssp
   *          firmware library.
   ******************************************************************************
   *
@@ -27,13 +27,38 @@
 /* Includes ------------------------------------------------------------------*/
 #include "W7500x_ssp.h"
 
-/** @defgroup SSP_Private_Defines
- * @{
- */
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @defgroup SSP
+  * @brief SSP driver modules
+  * @{
+  */
+
+
+/* Private typedef -----------------------------------------------------------*/
+
+
+/* Private define ------------------------------------------------------------*/
 /* SSP SOD mask */
 #define CR1_SOD_Set         ((uint32_t)0x0004)
 #define CR1_SOD_Reset       ((uint32_t)0xFFFB)
 
+
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/
+/* Private functions ---------------------------------------------------------*/
+
+/** @defgroup SSP_Private_Functions
+  * @{
+  */ 
+
+  
+  
+  
 /**
  * @brief  Deinitializes the SSPx peripheral registers to their default
  *         reset values (Affects also the I2Ss).
@@ -87,7 +112,7 @@ void SSP_StructInit(SSP_InitTypeDef* SSP_InitStruct)
 }
 
 /**
- * @brief  Initializes the SSPx peripheral according to the specified 
+ * @brief  Initializes the SSPx peripheral according to the specified
  *         parameters in the SSP_InitStruct.
  * @param  SSPx: where x can be 1 or 2 to select the SSP peripheral.
  * @param  SSP_InitStruct: pointer to a SSP_InitTypeDef structure that
@@ -99,7 +124,7 @@ void SSP_Init(SSP_TypeDef* SSPx, SSP_InitTypeDef* SSP_InitStruct)
     uint32_t tmpreg = 0;
 
     /* check the parameters */
-    assert_param(IS_SSP_ALL_PERIPH(SSPx));   
+    assert_param(IS_SSP_ALL_PERIPH(SSPx));
 
     /* Check the SSP parameters */
     assert_param(IS_SSP_SERIALCLOCKRATE(SSP_InitStruct->SSP_SerialClockRate));
@@ -144,8 +169,8 @@ void SSP_Init(SSP_TypeDef* SSPx, SSP_InitTypeDef* SSP_InitStruct)
 /**
  * @brief  Enables or disables the specified SSP/I2S interrupts.
  * @param  SSPx: where x can be
- *   - SSP0, SSP1 
- * @param  SSP_IT: specifies the SSP interrupt source to be enabled or disabled. 
+ *   - SSP0, SSP1
+ * @param  SSP_IT: specifies the SSP interrupt source to be enabled or disabled.
  *   This parameter can be one of the following values:
  *     @arg SSP_IT_TXIM: Tx FIFO interrupt mask
  *     @arg SSP_IT_RXIM: Rx FIFO interrupt mask
@@ -171,15 +196,15 @@ void SSP_ITConfig(SSP_TypeDef* SSPx, uint32_t SSP_IT, FunctionalState NewState)
     else
     {
         /* Disable the selected SSP/I2S interrupt */
-        SSPx->IMSC &= SSP_IT;
+        SSPx->IMSC &= ~SSP_IT;
     }
 }
 
 /**
  * @brief  Enables or disables the SSPx/I2Sx DMA interface.
  * @param  SSPx: where x can be
- *   - SSP0, SSP1 
- * @param  SSP_DMAReq: specifies the SSP DMA transfer request to be enabled or disabled. 
+ *   - SSP0, SSP1
+ * @param  SSP_DMAReq: specifies the SSP DMA transfer request to be enabled or disabled.
  *   This parameter can be any combination of the following values:
  *     @arg SSP_DMAReq_Tx: Tx buffer DMA transfer request
  *     @arg SSP_DMAReq_Rx: Rx buffer DMA transfer request
@@ -208,7 +233,7 @@ void SSP_DMACmd(SSP_TypeDef* SSPx, uint32_t SSP_DMAReq, FunctionalState NewState
 /**
  * @brief  Transmits a Data through the SSPx/I2Sx peripheral.
  * @param  SSPx: where x can be
- *   - SSP0, SSP1 
+ *   - SSP0, SSP1
  * @param  Data : Data to be transmitted.
  * @retval None
  */
@@ -222,9 +247,9 @@ void SSP_SendData(SSP_TypeDef* SSPx, uint16_t Data)
 }
 
 /**
- * @brief  Returns the most recent received data by the SSPx/I2Sx peripheral. 
+ * @brief  Returns the most recent received data by the SSPx/I2Sx peripheral.
  * @param  SSPx: where x can be
- *   - SSP0, SSP1 
+ *   - SSP0, SSP1
  * @retval The value of the received data.
  */
 uint16_t SSP_ReceiveData(SSP_TypeDef* SSPx)
@@ -265,7 +290,7 @@ void SSP_NSSInternalSoftwareConfig(SSP_TypeDef* SSPx, uint16_t SSP_NSSInternalSo
 /**
  * @brief  Enables or disables the SS output for the selected SSP.
  * @param  SSPx: where x can be 1 or 2 to select the SSP peripheral.
- * @param  NewState: new state of the SSPx SS output. 
+ * @param  NewState: new state of the SSPx SS output.
  *   This parameter can be: ENABLE or DISABLE.
  * @retval None
  */
@@ -311,14 +336,14 @@ void SSP_DataSizeConfig(SSP_TypeDef* SSPx, uint16_t SSP_DataSize)
 /**
  * @brief  Checks whether the specified SSP flag is set or not.
  * @param  SSPx: where x can be
- *   - SSP0, SSP1 
- * @param  SSP_FLAG: specifies the SSP flag to check. 
+ *   - SSP0, SSP1
+ * @param  SSP_FLAG: specifies the SSP flag to check.
  *   This parameter can be one of the following values:
- *     @arg SSP_FLAG_BSY : BUSY flag 
- *     @arg SSP_FLAG_RFF : RX FIFO full flag 
- *     @arg SSP_FLAG_RNE : RX FIFO not empty flag 
- *     @arg SSP_FLAG_TNF : TX FIFO not full flag 
- *     @arg SSP_FLAG_TFE : TX FIFO empty flag 
+ *     @arg SSP_FLAG_BSY : BUSY flag
+ *     @arg SSP_FLAG_RFF : RX FIFO full flag
+ *     @arg SSP_FLAG_RNE : RX FIFO not empty flag
+ *     @arg SSP_FLAG_TNF : TX FIFO not full flag
+ *     @arg SSP_FLAG_TFE : TX FIFO empty flag
  * @retval The new state of SSP_FLAG (SET or RESET).
  */
 FlagStatus SSP_GetFlagStatus(SSP_TypeDef* SSPx, uint32_t SSP_FLAG)
@@ -346,8 +371,8 @@ FlagStatus SSP_GetFlagStatus(SSP_TypeDef* SSPx, uint32_t SSP_FLAG)
 /**
  * @brief  Checks whether the specified SSP interrupt has occurred or not.
  * @param  SSPx: where x can be
- *   - SSP0, SSP1 
- * @param  SSP_IT: specifies the SSP interrupt source to check. 
+ *   - SSP0, SSP1
+ * @param  SSP_IT: specifies the SSP interrupt source to check.
  *   This parameter can be one of the following values:
  *     @arg SSP_IT_TXIM: Tx FIFO interrupt mask
  *     @arg SSP_IT_RXIM: Rx FIFO interrupt mask
@@ -381,11 +406,11 @@ ITStatus SSP_GetITStatus(SSP_TypeDef* SSPx, uint32_t SSP_IT)
 /**
  * @brief  Clears the SSPx CRC Error (CRCERR) interrupt pending bit.
  * @param  SSPx: where x can be
- *   - SSP0, SSP1 
+ *   - SSP0, SSP1
  * @param  SSP_IT: specifies the SSP interrupt pending bit to clear.
  * @note
  *   - SSP_CLEAR_IT_RORIC : Clear the RUNOVER
- *   - SSP_CLEAR_IT_RTIC  : Clear the interrupts ??? 
+ *   - SSP_CLEAR_IT_RTIC  : Clear the interrupts ???
  * @retval None
  */
 void SSP_ClearIT_Bit(SSP_TypeDef* SSPx, uint32_t SSP_CLEAR_IT)
@@ -398,3 +423,16 @@ void SSP_ClearIT_Bit(SSP_TypeDef* SSPx, uint32_t SSP_CLEAR_IT)
     SSPx->ICR = SSP_CLEAR_IT;
 }
 
+/**
+  * @}
+  */
+
+
+/**
+  * @}
+  */
+
+
+/**
+  * @}
+  */

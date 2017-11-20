@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_dma.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the DMA 
   *          firmware library.
   ******************************************************************************
@@ -198,6 +198,7 @@ typedef struct /* 8 words per channel */
 
 
 void dma_memory_copy (uint32_t chnl_num, unsigned int src, unsigned int dest, unsigned int size, unsigned int num);
+void dma_m2p_copy (uint32_t chnl_num, unsigned int src, unsigned int dest, unsigned int size, unsigned int num);
 void dma_data_struct_init(void);
 void dma_init(void);
 

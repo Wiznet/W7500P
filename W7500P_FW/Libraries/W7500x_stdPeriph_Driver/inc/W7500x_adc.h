@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_adc.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the ADC 
   *          firmware library.
   ******************************************************************************
@@ -35,6 +35,17 @@
 /* Includes ------------------------------------------------------------------*/
 #include "W7500x.h"
 
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup WDT
+  * @{
+  */ 
+  
+  
+  
 typedef enum { ADC_CH0 = 0, 
 	       ADC_CH1 = 1,
 	       ADC_CH2 = 2, 
@@ -70,3 +81,12 @@ void ADC_InterruptClear (void);
 #endif
 
 #endif  //__W7500X_ADC_H
+
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */

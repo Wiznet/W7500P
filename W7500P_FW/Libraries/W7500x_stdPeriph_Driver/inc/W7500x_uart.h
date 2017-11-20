@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_uart.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the UART 
   *          firmware library.
   ******************************************************************************
@@ -36,6 +36,15 @@
 #include "W7500x.h"
 
 
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup UART
+  * @{
+  */ 
+  
+  
 /** 
   * @brief  UART Init Structure definition  
   */ 
@@ -121,7 +130,7 @@ typedef struct
 #define UART_Mode_Rx                ((uint16_t)(UART_CR_RXE))
 #define UART_Mode_Tx                ((uint16_t)(UART_CR_TXE))
 #define IS_UART_MODE(MODE)          (((MODE) == UART_Mode_Rx) || \
-                                     ((MODE) == UART_Mode_Tx) || \
+                                     ((MODE) == UART_Mode_Tx)  || \
                                      ((MODE) == (URAT_Mode_Rx | UART_Mode_Tx)))
 
 /**
@@ -142,6 +151,22 @@ typedef struct
                                      ((CONTROL) == UART_HardwareFlowControl_RTS)  || \
                                      ((CONTROL) == UART_HardwareFlowControl_CTS)  || \
                                      ((CONTROL) == UART_HardwareFlowControl_RTS_CTS))
+/**
+  * @}
+  */
+
+
+/** @addtogroup UART_DMA_Control
+  * @{
+  */
+
+#define UART_DMAControl_DMAONERR       ((uint16_t)UART_DMACR_DMAONERR)
+#define UART_DMAControl_RXDMAE            ((uint16_t)UART_DMACR_TXDMAE)
+#define UART_DMAControl_TXDMAE            ((uint16_t)UART_DMACR_RXDMAE)
+#define IS_UART_DMA_CONTROL(CONTROL) \
+                                    (((CONTROL) == UART_DMAControl_DMAONERR) || \
+                                     ((CONTROL) == UART_DMAControl_TXDMAE)  || \
+                                     ((CONTROL) == UART_DMAControl_RXDMAE))
 /**
   * @}
   */
@@ -287,6 +312,8 @@ typedef struct
 void        UART_StructInit         (UART_InitTypeDef* UART_InitStruct);
 
 uint32_t    UART_Init               (UART_TypeDef *UARTx, UART_InitTypeDef* UART_InitStruct);
+void        UART_FIFO_Enable        (UART_TypeDef *UARTx, uint16_t rx_fifo_level, uint16_t tx_fifo_level);
+void        UART_FIFO_Disable       (UART_TypeDef *UARTx);
 void        UART_SendData           (UART_TypeDef* UARTx, uint16_t Data);
 uint16_t    UART_ReceiveData        (UART_TypeDef* UARTx);
 void        UART_SendBreak          (UART_TypeDef* UARTx);
@@ -295,6 +322,7 @@ FlagStatus  UART_GetFlagStatus      (UART_TypeDef* UARTx, uint16_t UART_FLAG);
 void        UART_ITConfig           (UART_TypeDef* UARTx, uint16_t UART_IT, FunctionalState NewState);
 ITStatus    UART_GetITStatus        (UART_TypeDef* UARTx, uint16_t UART_IT);
 void        UART_ClearITPendingBit  (UART_TypeDef* UARTx, uint16_t UART_IT);
+void        UART_DMA_Config(UART_TypeDef* UARTx, uint16_t UART_DMA_CONTROL);
 
 uint8_t     UartPutc                (UART_TypeDef* UARTx, uint8_t ch);
 void        UartPuts                (UART_TypeDef* UARTx, uint8_t *str);
@@ -325,3 +353,10 @@ void 		S_UART_ClearITPendingBit(uint16_t S_UART_IT);
 
 #endif // __W7500X_UART_H
 
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */

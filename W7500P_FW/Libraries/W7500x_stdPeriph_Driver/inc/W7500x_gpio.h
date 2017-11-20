@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_gpio.h
   * @author  IOP Team
   * @version V1.0.5
-  * @date    26-AUG-2015
+  * @date    05-June-2015
   * @brief   This file contains all the functions prototypes for the GPIO 
   *          firmware library.
   ******************************************************************************
@@ -83,6 +83,14 @@
 #define IS_GPIO_ALL_PERIPH(PERIPH)  (((PERIPH) == GPIOA) || ((PERIPH) == GPIOB) || \
                                      ((PERIPH) == GPIOC))
 
+                                     
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup GPIO
+  * @{
+  */                                      
 typedef enum
 {
     GPIO_Mode_IN    = 0x00, /*!< GPIO Input Mode                 */
@@ -183,3 +191,10 @@ void GPIO_INT_Configuration(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIOPol_Type
 #endif
 
 #endif //__W7500X_GPIO_H
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */

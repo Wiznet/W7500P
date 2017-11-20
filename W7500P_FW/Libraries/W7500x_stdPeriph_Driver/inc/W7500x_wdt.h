@@ -16,7 +16,7 @@
   * @file    W7500x_stdPeriph_Driver/inc/W7500x_wdt.h
   * @author  IOP Team
   * @version V1.0.0
-  * @date    26-AUG-2015
+  * @date    01-May-2015
   * @brief   This file contains all the functions prototypes for the WDT 
   *          firmware library.
   ******************************************************************************
@@ -41,6 +41,16 @@
 /**********************************************************************************************/
 /**********************************************************************************************/
 
+
+/** @addtogroup W7500x_Periph_Driver
+  * @{
+  */
+
+/** @addtogroup WDT
+  * @{
+  */ 
+  
+  
 typedef struct
 {
     uint32_t  WDTLoad;
@@ -79,3 +89,12 @@ uint32_t WDT_GetWDTControl(void);
 void WDT_SetWDTControl(uint32_t Control);
 
 #endif //__W7500X_WDT_H
+
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */
