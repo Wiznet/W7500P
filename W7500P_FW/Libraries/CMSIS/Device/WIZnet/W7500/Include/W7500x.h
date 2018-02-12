@@ -1,12 +1,12 @@
 /*******************************************************************************************************************************************************
- * Copyright ¨Ï 2016 <WIZnet Co.,Ltd.> 
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¡°Software¡±), 
+ * Copyright ï¿½ï¿½ 2016 <WIZnet Co.,Ltd.> 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ï¿½ï¿½Softwareï¿½ï¿½), 
  * to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
  * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- * THE SOFTWARE IS PROVIDED ¡°AS IS¡±, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+ * THE SOFTWARE IS PROVIDED ï¿½ï¿½AS ISï¿½ï¿½, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
  * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
@@ -84,7 +84,7 @@ typedef enum IRQn
   PORT0_IRQn                   = 7,        /*!< Port 1 combined Interrupt                         */  
   PORT1_IRQn                   = 8,        /*!< Port 2 combined Interrupt                         */  
   PORT2_IRQn                   = 9,        /*!< Port 2 combined Interrupt                         */  
-  /* 10 = reserved Number */
+  PORT3_IRQn                   = 10,       /*!< Port 2 combined Interrupt                         */  
   DMA_IRQn                     = 11,       /*!< DMA combined Interrupt                            */   
   DUALTIMER0_IRQn              = 12,       /*!< Dual Timer 0 Interrupt                            */
   DUALTIMER1_IRQn              = 13,       /*!< Dual Timer 1 Interrupt                            */
@@ -96,7 +96,7 @@ typedef enum IRQn
   PWM5_IRQn                    = 19,       /*!< PWM 5 Interrupt                                   */ 
   PWM6_IRQn                    = 20,       /*!< PWM 6 Interrupt                                   */ 
   PWM7_IRQn                    = 21,       /*!< PWM 7 Interrupt                                   */ 
-  /* 22 = reserved Number */
+  RTC_IRQn					   					 = 22,       /*RTC Interrupt */
   ADC_IRQn                     = 23,       /*!< ADC Interrupt                                     */ 
   WZTOE_IRQn                   = 24,       /*!< WZTOE Interrupt                                   */       
   EXTI_IRQn                    = 25        /*!< EXTI Interrupt                                    */       
@@ -186,15 +186,18 @@ typedef struct
   __IO  uint32_t  PWM4CLK_PVSR;       /*!< PWM4CLK prescale value select register,       Address offset : 0xf4 */     
         uint32_t  RESERVED11[2];
   __IO  uint32_t  PWM5CLK_SSR;        /*!< PWM5CLK source select register,               Address offset : 0x100 */     
-  __IO  uint32_t  PWM5CLK_PVSR;        /*!< PWM5CLK prescale value select register,       Address offset : 0x104 */     
+  __IO  uint32_t  PWM5CLK_PVSR;       /*!< PWM5CLK prescale value select register,       Address offset : 0x104 */     
         uint32_t  RESERVED12[2];
   __IO  uint32_t  PWM6CLK_SSR;        /*!< PWM6CLK source select register,               Address offset : 0x110 */     
   __IO  uint32_t  PWM6CLK_PVSR;       /*!< PWM6CLK prescale value select register,       Address offset : 0x114 */     
         uint32_t  RESERVED13[2];
   __IO  uint32_t  PWM7CLK_SSR;        /*!< PWM7CLK source select register,               Address offset : 0x120 */     
   __IO  uint32_t  PWM7CLK_PVSR;       /*!< PWM7CLK prescale value select register,       Address offset : 0x124 */     
-        uint32_t  RESERVED14[4];
-        uint32_t  RESERVED15[2];
+        uint32_t  RESERVED14[2];
+  __IO  uint32_t  RTCCLK_SEL;         /*!< RTCCLK source select register,                Address offset : 0x130 */
+  __IO  uint32_t  RTCCLK_PRE;         /*!< RTCCLK prescale value select register,        Address offset : 0x134 */
+  	  	uint32_t  RESERVED15[1];
+  __IO  uint32_t  RTCCLK_32K;         /*!< RTCCLK 32K select register,                	 Address offset : 0x13c */
 
   __IO  uint32_t  WDOGCLK_HS_SSR;     /*!< WDOGCLK High Speed source select register,         Address offset : 0x140 */     
   __IO  uint32_t  WDOGCLK_HS_PVSR;    /*!< WDOGCLK High Speed prescale value select register, Address offset : 0x144 */     
@@ -327,9 +330,32 @@ typedef struct
 
 typedef struct
 {
-  __IO  uint32_t  Port[16];
+  __IO  uint32_t  Port[16]; /* Port_00,      offset : 0x00 */
+                            /* Port_01,      offset : 0x04 */
+                            /* Port_02,      offset : 0x08 */
+                            /* Port_03,      offset : 0x0C */
+                            /* Port_04,      offset : 0x10 */
+                            /* Port_05,      offset : 0x14 */
+                            /* Port_06,      offset : 0x18 */
+                            /* Port_07,      offset : 0x1C */
+                            /* Port_08,      offset : 0x20 */
+                            /* Port_09,      offset : 0x24 */
+                            /* Port_10,      offset : 0x28 */
+                            /* Port_11,      offset : 0x2C */
+                            /* Port_12,      offset : 0x30 */
+                            /* Port_13,      offset : 0x34 */
+                            /* Port_14,      offset : 0x38 */
+                            /* Port_15,      offset : 0x3C */
 } P_Port_Def;
 
+typedef struct
+{
+  __IO  uint32_t  Port[5];  /* Port_00,      offset : 0x00 */
+                            /* Port_01,      offset : 0x04 */
+                            /* Port_02,      offset : 0x08 */
+                            /* Port_03,      offset : 0x0C */
+                            /* Port_04,      offset : 0x10 */
+} P_Port_D_Def;
 
 
 /**
@@ -472,6 +498,30 @@ typedef struct
 }WDT_TypeDef;
 
 
+typedef struct
+{
+  __IO uint32_t RTCCON;     
+  __IO uint32_t RTCINTE;   
+  __IO uint32_t RTCINTP;
+  __IO uint32_t RTCAMR;
+  __IO uint32_t BCDSEC;
+  __IO uint32_t BCDMIN;
+  __IO uint32_t BCDHOUR;
+  __IO uint32_t BCDDAY;
+  __IO uint32_t BCDDATE;
+  __IO uint32_t BCDMON;
+  __IO uint32_t BCDYEAR;
+  __IO uint32_t PRESEC;
+  __IO uint32_t PREMIN;
+  __IO uint32_t PREHOUR;
+  __IO uint32_t PREDAY;
+  __IO uint32_t PREDATE;
+  __IO uint32_t PREMON;
+  __IO uint32_t PREYEAR;
+  __I  uint32_t RTCTIME0;
+  __I  uint32_t RTCTIME1;
+} RTC_TypeDef;
+
 /** @addtogroup Peripheral_memory_map
   * @{
   */
@@ -507,6 +557,7 @@ typedef struct
 #define GPIOA_BASE              (W7500x_AHB_BASE + 0x00000000UL)    // W7500x_AHB_BASE : 0x42000000UL
 #define GPIOB_BASE              (W7500x_AHB_BASE + 0x01000000UL)
 #define GPIOC_BASE              (W7500x_AHB_BASE + 0x02000000UL)
+#define GPIOD_BASE              (W7500x_AHB_BASE + 0x03000000UL)
 
 #define P_AFSR_BASE             (W7500x_APB2_BASE + 0x00002000UL)
 
@@ -523,6 +574,8 @@ typedef struct
 #define SSP1_BASE 	          (0x4000B000)  
 
 #define W7500x_WDT_BASE    (W7500x_APB1_BASE + 0x0000UL)
+
+#define W7500x_RTC_BASE    (W7500x_APB1_BASE + 0x0000E000UL)
 
 /**
   * @}
@@ -554,21 +607,22 @@ typedef struct
 #define EXTI_PA         ((P_Port_Def *)   (EXTI_Px_BASE + 0x00000000UL))  /* PA_XX External interrupt Enable Register */
 #define EXTI_PB         ((P_Port_Def *)   (EXTI_Px_BASE + 0x00000040UL))  /* PB_XX External interrupt Enable Register */
 #define EXTI_PC         ((P_Port_Def *)   (EXTI_Px_BASE + 0x00000080UL))  /* PC_XX External interrupt Enable Register */
+#define EXTI_PD         ((P_Port_D_Def *) (EXTI_Px_BASE + 0x000000C0UL))  /* PD_XX External interrupt Enable Register */
 
 #define GPIOA   ((GPIO_TypeDef *) (GPIOA_BASE) )
 #define GPIOB   ((GPIO_TypeDef *) (GPIOB_BASE) )
 #define GPIOC   ((GPIO_TypeDef *) (GPIOC_BASE) )
+#define GPIOD   ((GPIO_TypeDef *) (GPIOD_BASE) )
 
 #define PA_AFSR ((P_Port_Def *)   (P_AFSR_BASE + 0x00000000UL))  /* PA_XX Pad Alternate Function Select Register */
 #define PB_AFSR ((P_Port_Def *)   (P_AFSR_BASE + 0x00000040UL))  /* PB_XX Pad Alternate Function Select Register */
 #define PC_AFSR ((P_Port_Def *)   (P_AFSR_BASE + 0x00000080UL))  /* PC_XX Pad Alternate Function Select Register */
+#define PD_AFSR ((P_Port_D_Def *) (P_AFSR_BASE + 0x000000C0UL))  /* PD_XX Pad Alternate Function Select Register */
 
 #define PA_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000000UL))   /* PA_XX Pad Control Register */
 #define PB_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000040UL))   /* PB_XX Pad Control Register */
 #define PC_PCR  ((P_Port_Def *)   (P_PCR_BASE + 0x00000080UL))   /* PC_XX Pad Control Register */
-
-//#define I2C0    ((I2C_TypeDef      *)  I2C0_BASE)
-//#define I2C1    ((I2C_TypeDef      *)  I2C1_BASE)
+#define PD_PCR  ((P_Port_D_Def *) (P_PCR_BASE + 0x000000C0UL))   /* PD_XX Pad Control Register */
 
 #define PWM                             ((PWM_TypeDef *)         (W7500x_PWM_BASE + 0x800UL ))   
 #define PWM_CH0                         ((PWM_CHn_TypeDef *)     (W7500x_PWM_BASE))   
@@ -587,6 +641,7 @@ typedef struct
 
 #define WDT                ((WDT_TypeDef  *) W7500x_WDT_BASE)
 
+#define RTC        ((RTC_TypeDef *) W7500x_RTC_BASE)
 /**
   * @}
   */
@@ -719,6 +774,7 @@ typedef struct
 #define CRG_MONCLK_SSR_UARTCLK   (0x10ul)        // UARTCLK
 #define CRG_MONCLK_SSR_MII_RXCLK (0x11ul)        // MII_RXCLK 
 #define CRG_MONCLK_SSR_MII_TXCLK (0x12ul)        // MII_TXCLK
+#define CRG_MONCLK_SSR_RTCCLK	 (0x13ul)        // RTCCLK
 
 /******************************************************************************/
 /*                                                                            */
@@ -948,6 +1004,7 @@ typedef struct
 #define Px_AFSR_AF2     (0x02ul)
 #define Px_AFSR_AF3     (0x03ul) 
 /****************   Bit definition for Px_PCR   **************************/
+#define Px_PCR_DEFAULT	    (0)       			//
 #define Px_PCR_PUPD_DOWN    (0x01ul << 0)       // Pull Down 
 #define Px_PCR_PUPD_UP      (0x01ul << 1)       // Pull Up
 #define Px_PCR_DS_HIGH      (0x01ul << 2)       // High Driving 
@@ -1034,10 +1091,6 @@ typedef struct
 //ToDo
 
 
-
-
-
-
 #if !defined  (USE_HAL_DRIVER)
 #define USE_HAL_DRIVER
 #endif /* USE_HAL_DRIVER */
@@ -1064,4 +1117,3 @@ typedef struct
 
 
 /************************ (C) COPYRIGHT Wiznet *****END OF FILE****/
-

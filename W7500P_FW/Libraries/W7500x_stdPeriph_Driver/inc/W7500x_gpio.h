@@ -139,7 +139,8 @@ typedef enum
 {
     PAD_PA=0,
     PAD_PB,
-    PAD_PC
+    PAD_PC,
+	  PAD_PD
 }PAD_Type;
 
 typedef enum
