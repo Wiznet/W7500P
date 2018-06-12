@@ -29,7 +29,7 @@
 #define CNTL_DUPLEX     (0x01ul<< 8)
 #define CNTL_AUTONEGO   (0x01ul<<12)
 #define CNTL_SPEED      (0x01ul<<13)
-#define CNTL_RESE       (0x01ul<<15)
+#define CNTL_RESET      (0x01ul<<15)
 typedef enum
 {
     HalfDuplex10 = 0x0000,
