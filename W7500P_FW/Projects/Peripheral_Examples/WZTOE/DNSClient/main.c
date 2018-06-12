@@ -81,9 +81,9 @@ int main()
     uint8_t src_addr[4] = {192, 168,  77,  9};
     uint8_t gw_addr[4]  = {192, 168,  77,  1};
     uint8_t sub_addr[4] = {255, 255, 255,  0};	
-		uint8_t Domain_name[] = "www.google.com";    // for example domain name
+	uint8_t Domain_name[] = "www.google.com";    // for example domain name
     uint8_t dns_server[4] = {8, 8, 8, 8};           // for Example domain name server
-		uint8_t Domain_IP[4] = {0, 0, 0, 0};           // for Example domain name server
+	uint8_t Domain_IP[4] = {0, 0, 0, 0};           // for Example domain name server
     uint8_t tmp[8];
     uint32_t toggle = 1;
 
@@ -96,7 +96,7 @@ int main()
     /* UART Init */
     //UART_StructInit(&UART_InitStructure);
     //UART_Init(UART1,&UART_InitStructure);
-		S_UART_Init(115200);
+	S_UART_Init(115200);
 		
     /* SysTick_Config */
     SysTick_Config((GetSystemClock()/1000));
@@ -108,26 +108,12 @@ int main()
     //      GetSystemClock, getTIC100US(), *(uint32_t *)TIC100US);        
 
 
-#ifdef __DEF_USED_IC101AG__ //For using IC+101AG
-    *(volatile uint32_t *)(0x41003068) = 0x64; //TXD0 - set PAD strengh and pull-up
-    *(volatile uint32_t *)(0x4100306C) = 0x64; //TXD1 - set PAD strengh and pull-up
-    *(volatile uint32_t *)(0x41003070) = 0x64; //TXD2 - set PAD strengh and pull-up
-    *(volatile uint32_t *)(0x41003074) = 0x64; //TXD3 - set PAD strengh and pull-up
-    *(volatile uint32_t *)(0x41003050) = 0x64; //TXE  - set PAD strengh and pull-up
-#endif	
-
-#ifdef __W7500P__
-	*(volatile uint32_t *)(0x41003070) = 0x61;
-	*(volatile uint32_t *)(0x41003054) = 0x61;
-#endif
-
-
 #ifdef __DEF_USED_MDIO__ 
-    /* mdio Init */
-    mdio_init(GPIOB, MDC, MDIO );
-    //mdio_error_check(GPIOB, MDC, MDIO); //need verify...
+    /* PHY Initialization */
+    PHY_Init();
+    
     /* PHY Link Check via gpio mdio */
-    while( link() == 0x0 )
+    while( link() == 0x0)
     {
         printf(".");  
         delay(500);
@@ -135,7 +121,9 @@ int main()
     printf("PHY is linked. \r\n");  
 #else
     delay(1000);
+    delay(1000);
 #endif
+    
 
     /* Network Configuration (Default setting) */
     setSHAR(mac_addr);
