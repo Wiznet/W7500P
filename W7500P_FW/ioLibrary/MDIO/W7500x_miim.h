@@ -26,9 +26,10 @@
 #define SVAL 0x2 //right shift val = 2 
 #define PHYREG_CONTROL  0x0//Control Register address (Contorl basic register)
 #define PHYREG_STATUS   0x1//Status Register address (Status basic register)
-#define CNTL_DUPLEX     (0x01ul<< 7)
-#define CNTL_AUTONEGO   (0x01ul<<11)
-#define CNTL_SPEED      (0x01ul<<12)
+#define CNTL_DUPLEX     (0x01ul<< 8)
+#define CNTL_AUTONEGO   (0x01ul<<12)
+#define CNTL_SPEED      (0x01ul<<13)
+#define CNTL_RESE       (0x01ul<<15)
 typedef enum
 {
     HalfDuplex10 = 0x0000,
@@ -41,6 +42,7 @@ typedef enum
 #define IS_SETLINK_TYPE(Mode) (((Mode)==HalfDuplex10) || ((Mode)==FullDuplex10) || ((Mode)==AUTONEGO) || \
                                ((Mode)==HalfDuplex100) || ((Mode)==FullDuplex100))
 
+void PHY_Init(void);
 int32_t phy_id(void);
 void mdio_init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO);
 //void mdio_error_check(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_MDC, uint16_t GPIO_Pin_MDIO); //need verify...

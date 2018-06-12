@@ -15,8 +15,8 @@
 #include "W7500x_miim.h"
 #ifdef __W7500P__
            // PB_05, PB_12 pull down
-           *(volatile uint32_t *)(0x41003070) = 0x61;
-           *(volatile uint32_t *)(0x41003054) = 0x61;
+           //*(volatile uint32_t *)(0x41003070) = 0x61;
+           //*(volatile uint32_t *)(0x41003054) = 0x61;
 #endif
 
 #define __DEF_DBG_LEVEL1__
@@ -246,7 +246,7 @@ int32_t phy_id(void)
         idle_MDIO(GPIOB);
 				
          /*For DEBUG*/        
-        //printf("\r\nPHY_ID = %d , STATUS = %x",i,data);  //right : 0x7869				
+        printf("\r\nPHY_ID = %d , STATUS = %x",i,data);  //right : 0x7869				
         if((data != 0x0000)&&(data != 0xFFFF)) return i;
     }
     printf("\r\nphy id detect error!!\r\n");
@@ -254,5 +254,34 @@ int32_t phy_id(void)
     
    // return 0;
     
+}
+
+void PHY_Init(void)
+{   
+#ifdef __DEF_USED_IC101AG__ // For using W7500 + (IC+101AG PHY)
+    *(volatile uint32_t *)(0x41003068) = 0x64; //TXD0 - set PAD strengh and pull-up
+    *(volatile uint32_t *)(0x4100306C) = 0x64; //TXD1 - set PAD strengh and pull-up
+    *(volatile uint32_t *)(0x41003070) = 0x64; //TXD2 - set PAD strengh and pull-up
+    *(volatile uint32_t *)(0x41003074) = 0x64; //TXD3 - set PAD strengh and pull-up
+    *(volatile uint32_t *)(0x41003050) = 0x64; //TXE  - set PAD strengh and pull-up
+#endif
+#ifdef __W7500P__ // W7500P only
+    // PB_05, PB_12 pull down
+    *(volatile uint32_t *)(0x41003070) = 0x61; // RXDV - set pull down (PB_12)
+    *(volatile uint32_t *)(0x41002054) = 0x01; // PB 05 AFC
+    *(volatile uint32_t *)(0x41003054) = 0x61; // COL  - set pull down (PB_05)
+    *(volatile uint32_t *)(0x41002058) = 0x01; // PB 06 AFC
+    *(volatile uint32_t *)(0x41003058) = 0x61; // DUP  - set pull down (PB_06)
+    
+    // PHY reset pin pull-up
+    *(volatile uint32_t *)(0x410020D8) = 0x01; // PD 06 AFC[00 : zero / 01 : PD06]
+    *(volatile uint32_t *)(0x410030D8) = 0x02; // PD 06 PADCON
+    *(volatile uint32_t *)(0x45000004) = 0x40; // GPIOD DATAOUT [PD06 output 1]
+   *(volatile uint32_t *)(0x45000010) = 0x40; // GPIOD OUTENSET    
+#endif
+#ifdef __DEF_USED_MDIO__     
+    mdio_init(GPIOB, W7500x_MDC, W7500x_MDIO);                // MDIO Init
+    mdio_write(GPIOB, PHYREG_CONTROL, CNTL_RESET);   // PHY Reset
+#endif
 }
 
