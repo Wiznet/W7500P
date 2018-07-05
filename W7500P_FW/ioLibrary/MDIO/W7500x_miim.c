@@ -256,6 +256,7 @@ int32_t phy_id(void)
     
 }
 
+
 void PHY_Init(void)
 {   
 #ifdef __DEF_USED_IC101AG__ // For using W7500 + (IC+101AG PHY)
@@ -280,7 +281,7 @@ void PHY_Init(void)
    *(volatile uint32_t *)(0x45000010) = 0x40; // GPIOD OUTENSET    
 #endif
 #ifdef __DEF_USED_MDIO__     
-    mdio_init(GPIOB, W7500x_MDC, W7500x_MDIO);                // MDIO Init
+    mdio_init(GPIOB, MDC, MDIO);                // MDIO Init
     mdio_write(GPIOB, PHYREG_CONTROL, CNTL_RESET);   // PHY Reset
 #endif
 }
