@@ -18,6 +18,10 @@
 #define MDIO    GPIO_Pin_15
 #define MDC     GPIO_Pin_14
 
+#define __DEF_USED_MDIO__ 
+#define __W7500P__ // for W7500P
+
+
 //#define PHY_ADDR_RLT8201 0x1F //AD[4:0] <= 0x1F (0x1F)
 //#define PHY_ADDR_IP101G (phy_id())
 //#define PHY_ADDR PHY_ADDR_IP101G
