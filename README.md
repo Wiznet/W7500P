@@ -1,19 +1,21 @@
+# This repository is no longer supported. Please refer to the following repository:[W7500x_StdPeriph_Lib](https://github.com/Wiznet/W7500x_StdPeriph_Lib)
+
 /*******************************************************************************************************************************************************
- * Copyright ®œ 2016 <WIZnet Co.,Ltd.> 
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the °∞Software°±), 
+ * Copyright ¬®√è 2016 <WIZnet Co.,Ltd.> 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ¬°¬∞Software¬°¬±), 
  * to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
  * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- * THE SOFTWARE IS PROVIDED °∞AS IS°±, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+ * THE SOFTWARE IS PROVIDED ¬°¬∞AS IS¬°¬±, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
  * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 *********************************************************************************************************************************************************/
-#Library and Peripheral Example
+# Library and Peripheral Example
 
-##Overview
+## Overview
 The W7500p provides the CMSIS, driver and Peripheral Example.
 The W7500p Standard Peripherals library provides a rich set of examples covering the main features of each peripheral. 
 All the examples are independent from the WIZwiki-W7500 platform. 
@@ -47,5 +49,5 @@ Only source files are provided for each example and user can tailor the provided
     - w7500p_flash_algo_mdk
       - The W7500 standard library provides W7500 128KB flash algorithm project to debug WIZwiki-W7500 with using ULINK debugger and CMSIS-DAP debugger. 
 
-##Peripheral description and examples
+## Peripheral description and examples
 - [Peripherals](http://wizwiki.net/wiki/doku.php?id=products:w7500p:peripherals)
