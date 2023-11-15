@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libPWM_FILES.a"
-)

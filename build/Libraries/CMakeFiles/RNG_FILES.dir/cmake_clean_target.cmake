@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libRNG_FILES.a"
-)

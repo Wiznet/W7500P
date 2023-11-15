@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libWIZCHIP_CONF_FILES.a"
-)

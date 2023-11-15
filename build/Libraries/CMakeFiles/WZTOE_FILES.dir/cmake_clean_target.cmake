@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libWZTOE_FILES.a"
-)

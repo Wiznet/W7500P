@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libHTTP_SERVER_FILES.a"
-)

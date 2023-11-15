@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libDMA_FILES.a"
-)

@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libUART_FILES.a"
-)

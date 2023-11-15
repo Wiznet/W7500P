@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libHTTP_PARSER_FILES.a"
-)
