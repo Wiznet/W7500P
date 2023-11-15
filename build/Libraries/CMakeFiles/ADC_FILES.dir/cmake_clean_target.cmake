@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libADC_FILES.a"
+)

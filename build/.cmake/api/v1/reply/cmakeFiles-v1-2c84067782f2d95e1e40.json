@@ -1,0 +1,299 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "tools/arm-none-eabi-gcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.27.4/CMakeSystem.cmake"
+		},
+		{
+			"path" : "tools/arm-none-eabi-gcc.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.27.4/CMakeASMCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.27.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.27.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/ADC/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/ADC/Illumination_RGBLED/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/GPIO/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/GPIO/Blink_LED/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/PWM/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/PWM/CaptureMode/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/PWM/CounterMode/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/PWM/DeadZoneGeneration/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/PWM/PWMOutput/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/PWM/TimerMode/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/UART/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/UART/Interrupt/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/UART/Polling/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/UART/Printf/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/UART/Uart_HardwareFlowControl/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/DualTimer/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/DualTimer/TimerRun/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/EXTI/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/EXTI/LED_Toggle/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/EXTI/Sleep/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/Flash/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/Flash/IAP_Example/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/SSP/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/SSP/Loopback/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/SSP/SD_Card_LED/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/SysTick/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/SysTick/Delay/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WDT/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WDT/WDTReset/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/DMA/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/DMA/MemoryToMemory/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/RNG/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/RNG/Random_number_generation/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WZTOE/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WZTOE/DHCPClient/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WZTOE/DNSClient/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WZTOE/Ethernet2SPI/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WZTOE/httpClient/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WZTOE/httpServer/CMakeLists.txt"
+		},
+		{
+			"path" : "Projects/Peripheral_Examples/WZTOE/LoopbackTest/CMakeLists.txt"
+		},
+		{
+			"path" : "Libraries/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/Application/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/Application/loopback/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/Ethernet/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/Internet/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/Internet/DHCP/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/Internet/DNS/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/Internet/httpServer/CMakeLists.txt"
+		},
+		{
+			"path" : "ioLibrary/MDIO/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/W7500P/build",
+		"source" : "D:/W7500P"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

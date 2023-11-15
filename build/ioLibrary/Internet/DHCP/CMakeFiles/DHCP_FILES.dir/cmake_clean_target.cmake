@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libDHCP_FILES.a"
+)

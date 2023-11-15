@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libSYSTEM_W7500X_FILES.a"
+)

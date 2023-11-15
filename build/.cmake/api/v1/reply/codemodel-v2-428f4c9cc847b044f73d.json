@@ -1,0 +1,1317 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						42,
+						43
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Projects/Peripheral_Examples",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6,
+						12,
+						17,
+						19,
+						22,
+						24,
+						27,
+						29,
+						31,
+						33,
+						35
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples-Debug-6dfad1aa629b1ba778b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/ADC",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.ADC-Debug-215ec04ebea19549a159.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/ADC"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/ADC/Illumination_RGBLED",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.ADC.Illumination_RGBLED-Debug-adf0abcf91f77a80d4a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/ADC/Illumination_RGBLED",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/GPIO",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.GPIO-Debug-c83e471aff001f2ffe22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/GPIO"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/GPIO/Blink_LED",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.GPIO.Blink_LED-Debug-817b3bd35e59fe21b59c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/GPIO/Blink_LED",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/PWM",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.PWM-Debug-eb91b109214a6c40e1b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/PWM"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/PWM/CaptureMode",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.PWM.CaptureMode-Debug-f3acadf5a4fe04012caa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/PWM/CaptureMode",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/PWM/CounterMode",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.PWM.CounterMode-Debug-a3836b76700679f0c73b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/PWM/CounterMode",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/PWM/DeadZoneGeneration",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.PWM.DeadZoneGeneration-Debug-830df3450ed772e52a6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/PWM/DeadZoneGeneration",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/PWM/PWMOutput",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.PWM.PWMOutput-Debug-d0aeff0d0ea19abd08d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/PWM/PWMOutput",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/PWM/TimerMode",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.PWM.TimerMode-Debug-0bb457b3e38810b42277.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/PWM/TimerMode",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/UART",
+					"childIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.UART-Debug-6a563ed0c53b5a917674.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/UART"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/UART/Interrupt",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.UART.Interrupt-Debug-60a9316f3b8f382fc3a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/UART/Interrupt",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/UART/Polling",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.UART.Polling-Debug-15f18e3a4f9583192f37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/UART/Polling",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/UART/Printf",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.UART.Printf-Debug-0c5889c9348603e157b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/UART/Printf",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/UART/Uart_HardwareFlowControl",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.UART.Uart_HardwareFlowControl-Debug-b8d43514a9a2fe4cb749.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/UART/Uart_HardwareFlowControl",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/DualTimer",
+					"childIndexes" : 
+					[
+						18
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.DualTimer-Debug-b8fe085972bee94b71c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/DualTimer"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/DualTimer/TimerRun",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.DualTimer.TimerRun-Debug-0785f529025cb326b9fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/DualTimer/TimerRun",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/EXTI",
+					"childIndexes" : 
+					[
+						20,
+						21
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.EXTI-Debug-83baa50b92bce24dfa3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/EXTI"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/EXTI/LED_Toggle",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.EXTI.LED_Toggle-Debug-059b5816d428ff3bbf44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/EXTI/LED_Toggle",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/EXTI/Sleep",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.EXTI.Sleep-Debug-3f5462490580cd44ab42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/EXTI/Sleep",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/Flash",
+					"childIndexes" : 
+					[
+						23
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.Flash-Debug-77d840b87142cdee4492.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/Flash"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/Flash/IAP_Example",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.Flash.IAP_Example-Debug-ece8c6e0e6e7861862e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/Flash/IAP_Example",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/SSP",
+					"childIndexes" : 
+					[
+						25,
+						26
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.SSP-Debug-a47b0bc8f2be955c97f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/SSP"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/SSP/Loopback",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.SSP.Loopback-Debug-f44e88f3fbd9f552e025.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 24,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/SSP/Loopback",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/SSP/SD_Card_LED",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.SSP.SD_Card_LED-Debug-7debc7fee934173767c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 24,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/SSP/SD_Card_LED",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/SysTick",
+					"childIndexes" : 
+					[
+						28
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.SysTick-Debug-9bde3ac97f5c598db1b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/SysTick"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/SysTick/Delay",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.SysTick.Delay-Debug-1a877db9c568da00558e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/SysTick/Delay",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WDT",
+					"childIndexes" : 
+					[
+						30
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WDT-Debug-cb405e90deafa64e776f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WDT"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WDT/WDTReset",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WDT.WDTReset-Debug-3b16dda8cb5594e8fb1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WDT/WDTReset",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/DMA",
+					"childIndexes" : 
+					[
+						32
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.DMA-Debug-2a032ff3f03be9e4a97c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/DMA"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/DMA/MemoryToMemory",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.DMA.MemoryToMemory-Debug-1fc4ddd82c4dbe30a0f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/DMA/MemoryToMemory",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/RNG",
+					"childIndexes" : 
+					[
+						34
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.RNG-Debug-f2510631076a9bdf6a26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/RNG"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/RNG/Random_number_generation",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.RNG.Random_number_generation-Debug-57a8ab2bd009d36a2570.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/RNG/Random_number_generation",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WZTOE",
+					"childIndexes" : 
+					[
+						36,
+						37,
+						38,
+						39,
+						40,
+						41
+					],
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WZTOE-Debug-778f30c7bd27af65af8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WZTOE"
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WZTOE/DHCPClient",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WZTOE.DHCPClient-Debug-6565806331cb30b81555.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WZTOE/DHCPClient",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WZTOE/DNSClient",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WZTOE.DNSClient-Debug-42c2a9ffbbfd054227ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WZTOE/DNSClient",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WZTOE/Ethernet2SPI",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WZTOE.Ethernet2SPI-Debug-0a1bc3fbc9e0dec4aae9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WZTOE/Ethernet2SPI",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WZTOE/httpClient",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WZTOE.httpClient-Debug-8fc6a5c9ce15afecce80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WZTOE/httpClient",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WZTOE/httpServer",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WZTOE.httpServer-Debug-f5601e9a98b125549e22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WZTOE/httpServer",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "Projects/Peripheral_Examples/WZTOE/LoopbackTest",
+					"jsonFile" : "directory-Projects.Peripheral_Examples.WZTOE.LoopbackTest-Debug-2b5fd83361dfc000120b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 35,
+					"projectIndex" : 0,
+					"source" : "Projects/Peripheral_Examples/WZTOE/LoopbackTest",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "Libraries",
+					"jsonFile" : "directory-Libraries-Debug-d0f48e979d4026492554.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Libraries",
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						8,
+						11,
+						14,
+						16,
+						28,
+						31,
+						32,
+						36,
+						37,
+						41,
+						45,
+						47
+					]
+				},
+				{
+					"build" : "ioLibrary",
+					"childIndexes" : 
+					[
+						44,
+						46,
+						47,
+						51
+					],
+					"jsonFile" : "directory-ioLibrary-Debug-118f8a9710eeb4e5bac4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ioLibrary"
+				},
+				{
+					"build" : "ioLibrary/Application",
+					"childIndexes" : 
+					[
+						45
+					],
+					"jsonFile" : "directory-ioLibrary.Application-Debug-db74b228963d70fec7f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/Application"
+				},
+				{
+					"build" : "ioLibrary/Application/loopback",
+					"jsonFile" : "directory-ioLibrary.Application.loopback-Debug-426006141418ed486799.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 44,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/Application/loopback",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "ioLibrary/Ethernet",
+					"jsonFile" : "directory-ioLibrary.Ethernet-Debug-644fc90ef0a3ffa69452.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/Ethernet",
+					"targetIndexes" : 
+					[
+						35,
+						46
+					]
+				},
+				{
+					"build" : "ioLibrary/Internet",
+					"childIndexes" : 
+					[
+						48,
+						49,
+						50
+					],
+					"jsonFile" : "directory-ioLibrary.Internet-Debug-f88f133fb6fda70fa9a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/Internet"
+				},
+				{
+					"build" : "ioLibrary/Internet/DHCP",
+					"jsonFile" : "directory-ioLibrary.Internet.DHCP-Debug-544498fc569d763556a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 47,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/Internet/DHCP",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "ioLibrary/Internet/DNS",
+					"jsonFile" : "directory-ioLibrary.Internet.DNS-Debug-20e207aa058b271f837c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 47,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/Internet/DNS",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "ioLibrary/Internet/httpServer",
+					"jsonFile" : "directory-ioLibrary.Internet.httpServer-Debug-3697b99a230c0adeff20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 47,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/Internet/httpServer",
+					"targetIndexes" : 
+					[
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "ioLibrary/MDIO",
+					"jsonFile" : "directory-ioLibrary.MDIO-Debug-f72b079beb10de9fb2dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 43,
+					"projectIndex" : 0,
+					"source" : "ioLibrary/MDIO",
+					"targetIndexes" : 
+					[
+						43
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51
+					],
+					"name" : "W7500x_pwm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ADC::@59a4ebb0141730212e0c",
+					"jsonFile" : "target-ADC-Debug-f5d7980363f6f53f9ca0.json",
+					"name" : "ADC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "ADC_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-ADC_FILES-Debug-3d51d5de392c4201745a.json",
+					"name" : "ADC_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Blink_LED::@9f26193625fdd8a7c4fe",
+					"jsonFile" : "target-Blink_LED-Debug-a1087dd3ca7083fb07bc.json",
+					"name" : "Blink_LED",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "CRG_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-CRG_FILES-Debug-56f3108fbe31c5ab701e.json",
+					"name" : "CRG_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CaptureMode::@a46be1045b35df39370f",
+					"jsonFile" : "target-CaptureMode-Debug-3a191d5778f6eca7ab4e.json",
+					"name" : "CaptureMode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "CounterMode::@56815d72575bed39630b",
+					"jsonFile" : "target-CounterMode-Debug-490e66cae03f0d65e18c.json",
+					"name" : "CounterMode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "DHCPClient::@1276ecaca79575657160",
+					"jsonFile" : "target-DHCPClient-Debug-ba130855e685c722dab2.json",
+					"name" : "DHCPClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "DHCP_FILES::@dca338a52b8c75a303e2",
+					"jsonFile" : "target-DHCP_FILES-Debug-70dc4970d958bce3e8bc.json",
+					"name" : "DHCP_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "DMA_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-DMA_FILES-Debug-fdc9d8585a99baa16e1f.json",
+					"name" : "DMA_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "DNSClient::@922b780a8e53fc73f792",
+					"jsonFile" : "target-DNSClient-Debug-f7e6edb76b6ee2be1acf.json",
+					"name" : "DNSClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "DNS_FILES::@38cc8d7b4053b4b8a5fd",
+					"jsonFile" : "target-DNS_FILES-Debug-bd13b8b56b367da9641d.json",
+					"name" : "DNS_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "DUALTIMER_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-DUALTIMER_FILES-Debug-95c146571811fb053f81.json",
+					"name" : "DUALTIMER_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "DeadZoneGeneration::@1c1031cd6eb4a047c3c6",
+					"jsonFile" : "target-DeadZoneGeneration-Debug-10b5b7352b53dad6f925.json",
+					"name" : "DeadZoneGeneration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "Delay::@5b5a7beb7fea1b2be054",
+					"jsonFile" : "target-Delay-Debug-231674b700266958e9ec.json",
+					"name" : "Delay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "EXTI_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-EXTI_FILES-Debug-c20049fa9c7b1d9caa07.json",
+					"name" : "EXTI_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "Ethernet2SPI::@4c29359e231362e84b7d",
+					"jsonFile" : "target-Ethernet2SPI-Debug-cc79dd03817e98baa444.json",
+					"name" : "Ethernet2SPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "GPIO_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-GPIO_FILES-Debug-95999410ae713237aa46.json",
+					"name" : "GPIO_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "HTTP_PARSER_FILES::@c4841d403483cda7ec0a",
+					"jsonFile" : "target-HTTP_PARSER_FILES-Debug-1544a147c0178511394b.json",
+					"name" : "HTTP_PARSER_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "HTTP_SERVER_FILES::@c4841d403483cda7ec0a",
+					"jsonFile" : "target-HTTP_SERVER_FILES-Debug-a99457e2dedba694e365.json",
+					"name" : "HTTP_SERVER_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "HTTP_UTIL_FILES::@c4841d403483cda7ec0a",
+					"jsonFile" : "target-HTTP_UTIL_FILES-Debug-79e03f2c39adb3e8aa6e.json",
+					"name" : "HTTP_UTIL_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "IAP_Example::@9a42c1e17fcad7f555b5",
+					"jsonFile" : "target-IAP_Example-Debug-881f72f0180b962c3d9f.json",
+					"name" : "IAP_Example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Interrupt::@590fd6c4b945a70ed07f",
+					"jsonFile" : "target-Interrupt-Debug-b766e2cae5424023499e.json",
+					"name" : "Interrupt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "LED_Toggle::@88fde5445ed3153a4e94",
+					"jsonFile" : "target-LED_Toggle-Debug-97e34ebdff542f28f47c.json",
+					"name" : "LED_Toggle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "LOOPBACK_FILES::@d702b730b9fddc6f81c1",
+					"jsonFile" : "target-LOOPBACK_FILES-Debug-f92cc82a6c11e0351722.json",
+					"name" : "LOOPBACK_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "Loopback::@02e024cf4b5044127b57",
+					"jsonFile" : "target-Loopback-Debug-6fc7d9d2428c514638b5.json",
+					"name" : "Loopback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "LoopbackTest::@dbaa2e061d63a8bd9fbd",
+					"jsonFile" : "target-LoopbackTest-Debug-a4aab9facce1a8ec6bc0.json",
+					"name" : "LoopbackTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "MemoryToMemory::@daed3f7b7a48bf18bef2",
+					"jsonFile" : "target-MemoryToMemory-Debug-fb145728383058e11ba9.json",
+					"name" : "MemoryToMemory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "PWMOutput::@7f97294e54625a9e41a2",
+					"jsonFile" : "target-PWMOutput-Debug-d5d081d88db2b399cd57.json",
+					"name" : "PWMOutput",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "PWM_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-PWM_FILES-Debug-dc2fd2de253b8855ce45.json",
+					"name" : "PWM_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Polling::@b5f219c4b682040a4b8c",
+					"jsonFile" : "target-Polling-Debug-8cc86b165774310bb38f.json",
+					"name" : "Polling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "Printf::@f5a424416a177959b672",
+					"jsonFile" : "target-Printf-Debug-d582c39aa10e12380e64.json",
+					"name" : "Printf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "RNG_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-RNG_FILES-Debug-a5ee68b4a540abc3240e.json",
+					"name" : "RNG_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "RTC_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-RTC_FILES-Debug-54c13ca21ed85f59671d.json",
+					"name" : "RTC_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "Random_number_generation::@73161ed20dc6afdc02e6",
+					"jsonFile" : "target-Random_number_generation-Debug-6a1a773a0d252087f967.json",
+					"name" : "Random_number_generation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "SD_Card_LED::@d948f9e8f5e0ff2d445e",
+					"jsonFile" : "target-SD_Card_LED-Debug-6f319bfa28b8570ce0cd.json",
+					"name" : "SD_Card_LED",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "SOCKET_FILES::@20ba0b6f07191976baf5",
+					"jsonFile" : "target-SOCKET_FILES-Debug-54a04e97b7273f59352d.json",
+					"name" : "SOCKET_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "SSP_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-SSP_FILES-Debug-92512eb193d14cc3146a.json",
+					"name" : "SSP_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "SYSTEM_W7500X_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-SYSTEM_W7500X_FILES-Debug-83ab21868c0167a502fe.json",
+					"name" : "SYSTEM_W7500X_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "Sleep::@45d5d56dc55d00965673",
+					"jsonFile" : "target-Sleep-Debug-dd9b2626d6ec4ff8666e.json",
+					"name" : "Sleep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "TimerMode::@63eafde87f42ea536593",
+					"jsonFile" : "target-TimerMode-Debug-ccbd4730339f9ccf2e06.json",
+					"name" : "TimerMode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "TimerRun::@7aeba4a3b1080ac12aa5",
+					"jsonFile" : "target-TimerRun-Debug-2eeac0fa51505cf571e5.json",
+					"name" : "TimerRun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "UART_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-UART_FILES-Debug-acef93bb3fbe30d1d883.json",
+					"name" : "UART_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Uart_HardwareFlowControl::@3ab4282bdf4fcf0d676e",
+					"jsonFile" : "target-Uart_HardwareFlowControl-Debug-2223f5860b5d4c59c35f.json",
+					"name" : "Uart_HardwareFlowControl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "W7500X_MIIM_FILES::@dffaaf92845f3b86bf6f",
+					"jsonFile" : "target-W7500X_MIIM_FILES-Debug-e26fc04335ec6603d066.json",
+					"name" : "W7500X_MIIM_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "WDTReset::@80dd9725e999b83410c9",
+					"jsonFile" : "target-WDTReset-Debug-106619106b15e9ba2ffd.json",
+					"name" : "WDTReset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "WDT_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-WDT_FILES-Debug-8c613f09fe67a9ddbfda.json",
+					"name" : "WDT_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "WIZCHIP_CONF_FILES::@20ba0b6f07191976baf5",
+					"jsonFile" : "target-WIZCHIP_CONF_FILES-Debug-823e3696f60d2e0229a8.json",
+					"name" : "WIZCHIP_CONF_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "WZTOE_FILES::@23b4fa16e04a5d05b8e9",
+					"jsonFile" : "target-WZTOE_FILES-Debug-61f2d2b098e3f5e2c461.json",
+					"name" : "WZTOE_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "httpClient::@9aeca1054ec72725e31a",
+					"jsonFile" : "target-httpClient-Debug-218d2c8abb68ac038054.json",
+					"name" : "httpClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "httpServer::@3d2f1d160738a5e57624",
+					"jsonFile" : "target-httpServer-Debug-25e8c8de045798afec45.json",
+					"name" : "httpServer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/W7500P/build",
+		"source" : "D:/W7500P"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

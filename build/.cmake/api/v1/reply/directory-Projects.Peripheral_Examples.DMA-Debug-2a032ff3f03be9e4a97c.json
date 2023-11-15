@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Projects/Peripheral_Examples/DMA",
+		"source" : "Projects/Peripheral_Examples/DMA"
+	}
+}

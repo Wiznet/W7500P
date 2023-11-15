@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ioLibrary/Internet/DNS",
+		"source" : "ioLibrary/Internet/DNS"
+	}
+}

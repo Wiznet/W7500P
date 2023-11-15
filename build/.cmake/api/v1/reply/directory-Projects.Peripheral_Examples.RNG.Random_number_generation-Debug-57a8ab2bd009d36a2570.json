@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Projects/Peripheral_Examples/RNG/Random_number_generation",
+		"source" : "Projects/Peripheral_Examples/RNG/Random_number_generation"
+	}
+}

@@ -1,0 +1,1348 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (exit)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (memset)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_uidiv)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_f2uiz)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_d2uiz)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_fdiv)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_fmul)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_fsub)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o) (__aeabi_f2iz)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_ui2f)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_dadd)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o) (__aeabi_dsub)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o) (__aeabi_d2iz)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj (__aeabi_f2d)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o) (__aeabi_dcmpge)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o) (__aeabi_fcmpge)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o) (__clzsi2)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o) (__eqsf2)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o) (__gesf2)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o) (__lesf2)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o) (__gedf2)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o) (__ledf2)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .text          0x00000000       0x80 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.exidx     0x00000000       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x60 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/main.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Polling.dir/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Polling.dir/main.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Polling.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/retarget.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Polling.dir/retarget.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Polling.dir/retarget.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Polling.dir/retarget.c.obj
+ .text._write   0x00000000       0x40 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_info    0x00000000      0x217 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_abbrev  0x00000000       0xf2 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_ranges  0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x254 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x5e CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x18 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x97 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x341 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0xfd CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x182 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0xd5 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x3d CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x16f CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x22d CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_macro   0x00000000      0x12c CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_line    0x00000000      0x4a3 CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_str     0x00000000     0xd23d CMakeFiles/Polling.dir/retarget.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/Polling.dir/retarget.c.obj
+ .debug_frame   0x00000000       0x30 CMakeFiles/Polling.dir/retarget.c.obj
+ .ARM.attributes
+                0x00000000       0x2c CMakeFiles/Polling.dir/retarget.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_DeInit
+                0x00000000       0x10 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_FIFO_Enable
+                0x00000000       0x44 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_FIFO_Disable
+                0x00000000       0x1e CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_SendBreak
+                0x00000000       0x1c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_GetRecvStatus
+                0x00000000       0x40 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_ClearRecvStatus
+                0x00000000       0x1e CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_ClearFlag
+                0x00000000       0x16 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_ITConfig
+                0x00000000       0x46 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_GetITStatus
+                0x00000000       0x40 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_ClearITPendingBit
+                0x00000000       0x24 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UART_DMA_Config
+                0x00000000       0x24 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_DeInit
+                0x00000000        0xa CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_Init
+                0x00000000       0x40 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_SetBaud
+                0x00000000       0x5c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_SendData
+                0x00000000       0x2c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_ReceiveData
+                0x00000000       0x14 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_GetFlagStatus
+                0x00000000       0x44 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_SetCTRL
+                0x00000000       0x48 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_ITConfig
+                0x00000000       0x48 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_GetITStatus
+                0x00000000       0x44 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UART_ClearITPendingBit
+                0x00000000       0x28 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UartPutc
+                0x00000000       0x36 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UartPuts
+                0x00000000       0x46 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.UartGetc
+                0x00000000       0x22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UartPutc
+                0x00000000       0x24 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UartPuts
+                0x00000000       0x42 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .text.S_UartGetc
+                0x00000000       0x24 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00000000      0x22d CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.NVIC_EnableIRQ
+                0x00000000       0x2c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_DeInit
+                0x00000000       0xb0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_Init
+                0x00000000      0x1b8 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_StructInit
+                0x00000000       0x28 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x40 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadInputData
+                0x00000000       0x16 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x40 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadOutputData
+                0x00000000       0x16 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_SetBits
+                0x00000000       0x4a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ResetBits
+                0x00000000       0x4e CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_WriteBit
+                0x00000000       0xdc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_Write
+                0x00000000       0x1e CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ToggleBits
+                0x00000000       0x24 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Enable_Bits
+                0x00000000       0x54 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Enable
+                0x00000000       0x38 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Polarity_Bits
+                0x00000000       0x46 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Polarity
+                0x00000000       0x30 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Clear
+                0x00000000       0x1c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_Read_INTstatus
+                0x00000000       0x40 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.PAD_AFConfig
+                0x00000000       0xfc CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_Configuration
+                0x00000000       0xb4 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Configuration
+                0x00000000       0xe2 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_info    0x00000000      0xbda CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_abbrev  0x00000000      0x247 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_aranges
+                0x00000000       0xc8 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_ranges  0x00000000       0xb8 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0xb5 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0xac CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_line    0x00000000      0x773 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_str     0x00000000     0x8680 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_frame   0x00000000      0x2d0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .ARM.attributes
+                0x00000000       0x2c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .bss.SystemCoreClock
+                0x00000000        0x4 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .text.SystemCoreClockUpdate
+                0x00000000       0x94 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .text.GetSystemClock
+                0x00000000       0x14 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .text._exit    0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00020000         xr
+RAM              0x20000000         0x00003fc0         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD CMakeFiles/Polling.dir/main.c.obj
+LOAD CMakeFiles/Polling.dir/W7500x_it.c.obj
+LOAD CMakeFiles/Polling.dir/retarget.c.obj
+LOAD CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+LOAD CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+LOAD CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+LOAD CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+LOAD ../../../../Libraries/libUART_FILES.a
+LOAD ../../../../Libraries/libGPIO_FILES.a
+LOAD ../../../../Libraries/libSYSTEM_W7500X_FILES.a
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+END GROUP
+
+.text           0x00000000     0x2480
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xa8 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x00000000                __isr_vector
+ *(.text*)
+ .text          0x000000a8       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .text.main     0x000000f0       0xd0 CMakeFiles/Polling.dir/main.c.obj
+                0x000000f0                main
+ .text.Buffercmp
+                0x000001c0       0x44 CMakeFiles/Polling.dir/main.c.obj
+                0x000001c0                Buffercmp
+ .text.NMI_Handler
+                0x00000204        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000204                NMI_Handler
+ .text.HardFault_Handler
+                0x0000020e        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x0000020e                HardFault_Handler
+ .text.SVC_Handler
+                0x00000218        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000218                SVC_Handler
+ .text.PendSV_Handler
+                0x00000222        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000222                PendSV_Handler
+ .text.SysTick_Handler
+                0x0000022c        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x0000022c                SysTick_Handler
+ .text.SSP0_Handler
+                0x00000236        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000236                SSP0_Handler
+ .text.SSP1_Handler
+                0x00000240        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000240                SSP1_Handler
+ .text.UART0_Handler
+                0x0000024a        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x0000024a                UART0_Handler
+ .text.UART1_Handler
+                0x00000254        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000254                UART1_Handler
+ .text.UART2_Handler
+                0x0000025e        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x0000025e                UART2_Handler
+ .text.I2C0_Handler
+                0x00000268        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000268                I2C0_Handler
+ .text.I2C1_Handler
+                0x00000272        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000272                I2C1_Handler
+ .text.PORT0_Handler
+                0x0000027c        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x0000027c                PORT0_Handler
+ .text.PORT1_Handler
+                0x00000286        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000286                PORT1_Handler
+ .text.PORT2_Handler
+                0x00000290        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000290                PORT2_Handler
+ .text.PORT3_Handler
+                0x0000029a        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x0000029a                PORT3_Handler
+ .text.DMA_Handler
+                0x000002a4        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002a4                DMA_Handler
+ .text.DUALTIMER0_Handler
+                0x000002ae        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002ae                DUALTIMER0_Handler
+ .text.DUALTIMER1_Handler
+                0x000002b8        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002b8                DUALTIMER1_Handler
+ .text.PWM0_Handler
+                0x000002c2        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002c2                PWM0_Handler
+ .text.PWM1_Handler
+                0x000002cc        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002cc                PWM1_Handler
+ .text.PWM2_Handler
+                0x000002d6        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002d6                PWM2_Handler
+ .text.PWM3_Handler
+                0x000002e0        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002e0                PWM3_Handler
+ .text.PWM4_Handler
+                0x000002ea        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002ea                PWM4_Handler
+ .text.PWM5_Handler
+                0x000002f4        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002f4                PWM5_Handler
+ .text.PWM6_Handler
+                0x000002fe        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x000002fe                PWM6_Handler
+ .text.PWM7_Handler
+                0x00000308        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000308                PWM7_Handler
+ .text.ADC_Handler
+                0x00000312        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000312                ADC_Handler
+ .text.WZTOE_Handler
+                0x0000031c        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x0000031c                WZTOE_Handler
+ .text.EXTI_Handler
+                0x00000326        0xa CMakeFiles/Polling.dir/W7500x_it.c.obj
+                0x00000326                EXTI_Handler
+ .text          0x00000330       0x84 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x00000330                Reset_Handler
+                0x00000370                MemManage_Handler
+                0x00000372                BusFault_Handler
+                0x00000374                UsageFault_Handler
+                0x00000378                DebugMon_Handler
+                0x000003aa                RTC_Handler
+ .text.UART_StructInit
+                0x000003b4       0x38 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                0x000003b4                UART_StructInit
+ .text.UART_Init
+                0x000003ec      0x134 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                0x000003ec                UART_Init
+ .text.UART_SendData
+                0x00000520       0x1e CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                0x00000520                UART_SendData
+ .text.UART_ReceiveData
+                0x0000053e       0x16 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                0x0000053e                UART_ReceiveData
+ .text.UART_GetFlagStatus
+                0x00000554       0x40 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                0x00000554                UART_GetFlagStatus
+ .text.SystemInit
+                0x00000594       0xb4 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                0x00000594                SystemInit
+ .text          0x00000648      0x114 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x00000648                __aeabi_uidiv
+                0x00000648                __udivsi3
+                0x00000754                __aeabi_uidivmod
+ .text          0x0000075c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x0000075c                __aeabi_idiv0
+                0x0000075c                __aeabi_ldiv0
+ .text          0x00000760       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+                0x00000760                __fixunssfsi
+                0x00000760                __aeabi_f2uiz
+ .text          0x00000790       0x3c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+                0x00000790                __aeabi_d2uiz
+                0x00000790                __fixunsdfsi
+ .text          0x000007cc      0x230 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+                0x000007cc                __aeabi_fdiv
+ .text          0x000009fc      0x24c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+                0x000009fc                __aeabi_fmul
+ .text          0x00000c48      0x35c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+                0x00000c48                __aeabi_fsub
+ .text          0x00000fa4       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+                0x00000fa4                __aeabi_f2iz
+ .text          0x00000fe4       0x84 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+                0x00000fe4                __aeabi_ui2f
+ .text          0x00001068      0x678 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+                0x00001068                __aeabi_dadd
+ .text          0x000016e0      0x724 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+                0x000016e0                __aeabi_dsub
+ .text          0x00001e04       0x6c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+                0x00001e04                __aeabi_d2iz
+ .text          0x00001e70       0x90 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+                0x00001e70                __aeabi_f2d
+ .text          0x00001f00       0x7c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                0x00001f00                __aeabi_cdrcmple
+                0x00001f10                __aeabi_cdcmple
+                0x00001f10                __aeabi_cdcmpeq
+                0x00001f20                __aeabi_dcmpeq
+                0x00001f2c                __aeabi_dcmplt
+                0x00001f40                __aeabi_dcmple
+                0x00001f54                __aeabi_dcmpgt
+                0x00001f68                __aeabi_dcmpge
+ .text          0x00001f7c       0x74 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                0x00001f7c                __aeabi_cfrcmple
+                0x00001f84                __aeabi_cfcmpeq
+                0x00001f84                __aeabi_cfcmple
+                0x00001f94                __aeabi_fcmpeq
+                0x00001fa0                __aeabi_fcmplt
+                0x00001fb4                __aeabi_fcmple
+                0x00001fc8                __aeabi_fcmpgt
+                0x00001fdc                __aeabi_fcmpge
+ .text          0x00001ff0       0x3c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                0x00001ff0                __clzsi2
+ .text          0x0000202c       0x4c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+                0x0000202c                __eqsf2
+                0x0000202c                __nesf2
+ .text          0x00002078       0x8c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+                0x00002078                __gesf2
+                0x00002078                __gtsf2
+ .text          0x00002104       0x88 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+                0x00002104                __ltsf2
+                0x00002104                __lesf2
+ .text          0x0000218c       0x84 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+                0x0000218c                __nedf2
+                0x0000218c                __eqdf2
+ .text          0x00002210       0xcc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+                0x00002210                __gedf2
+                0x00002210                __gtdf2
+ .text          0x000022dc       0xc8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+                0x000022dc                __ledf2
+                0x000022dc                __ltdf2
+ *(.init)
+ .init          0x000023a4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x000023a4                _init
+ .init          0x000023a8        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x000023b0        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x000023b0                _fini
+ .fini          0x000023b4        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x000023bc       0x80 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+ .rodata        0x0000243c       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ *(.eh_frame*)
+ .eh_frame      0x0000247c        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x0000247c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+
+.glue_7         0x00002480        0x0
+ .glue_7        0x00002480        0x0 linker stubs
+
+.glue_7t        0x00002480        0x0
+ .glue_7t       0x00002480        0x0 linker stubs
+
+.vfp11_veneer   0x00002480        0x0
+ .vfp11_veneer  0x00002480        0x0 linker stubs
+
+.v4_bx          0x00002480        0x0
+ .v4_bx         0x00002480        0x0 linker stubs
+
+.iplt           0x00002480        0x0
+ .iplt          0x00002480        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.rel.dyn        0x00002480        0x0
+ .rel.iplt      0x00002480        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00002480                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00002480                __exidx_end = .
+                0x00002480                __etext = .
+
+.data           0x20000000       0x28 load address 0x00002480
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.TxBuffer
+                0x20000000       0x20 CMakeFiles/Polling.dir/main.c.obj
+                0x20000000                TxBuffer
+                0x20000020                . = ALIGN (0x4)
+                0x20000020                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x20000020                PROVIDE (__preinit_array_end = .)
+                0x20000020                . = ALIGN (0x4)
+                0x20000020                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x20000020        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x20000024                PROVIDE (__init_array_end = .)
+                0x20000024                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20000024        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x20000028                . = ALIGN (0x4)
+                0x20000028                __data_end__ = .
+
+.igot.plt       0x20000028        0x0 load address 0x000024a8
+ .igot.plt      0x20000028        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.bss            0x20000028       0x54 load address 0x000024a8
+                0x20000028                . = ALIGN (0x4)
+                0x20000028                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20000028       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.UART_InitStructure
+                0x20000044       0x10 CMakeFiles/Polling.dir/main.c.obj
+                0x20000044                UART_InitStructure
+ .bss.RxBuffer  0x20000054       0x20 CMakeFiles/Polling.dir/main.c.obj
+                0x20000054                RxBuffer
+ .bss.TxCounter
+                0x20000074        0x1 CMakeFiles/Polling.dir/main.c.obj
+                0x20000074                TxCounter
+ .bss.RxCounter
+                0x20000075        0x1 CMakeFiles/Polling.dir/main.c.obj
+                0x20000075                RxCounter
+ .bss.TransferStatus
+                0x20000076        0x1 CMakeFiles/Polling.dir/main.c.obj
+                0x20000076                TransferStatus
+ *fill*         0x20000077        0x1 
+ .bss.SystemFrequency
+                0x20000078        0x4 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                0x20000078                SystemFrequency
+ *(COMMON)
+                0x2000007c                . = ALIGN (0x4)
+                0x2000007c                __bss_end__ = .
+
+.heap           0x20000080        0x0
+                0x20000080                __end__ = .
+                0x20000080                end = __end__
+ *(.heap*)
+ .heap          0x20000080        0x0 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x20000080                __HeapLimit = .
+
+.stack_dummy    0x20000080      0x200
+ *(.stack*)
+ .stack         0x20000080      0x200 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x20003fc0                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20003dc0                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20003fc0                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(Polling elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x2c CMakeFiles/Polling.dir/main.c.obj
+ .ARM.attributes
+                0x00000076       0x2c CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .ARM.attributes
+                0x000000a2       0x1b CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .ARM.attributes
+                0x000000bd       0x2c CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .ARM.attributes
+                0x000000e9       0x2c CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .ARM.attributes
+                0x00000115       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000133       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000151       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .ARM.attributes
+                0x0000017d       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .ARM.attributes
+                0x000001a9       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+ .ARM.attributes
+                0x000001d5       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .ARM.attributes
+                0x00000201       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .ARM.attributes
+                0x0000022d       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .ARM.attributes
+                0x00000259       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .ARM.attributes
+                0x00000285       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x000002b1       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x000002dd       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x00000309       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .ARM.attributes
+                0x00000335       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000353       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000371       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x0000038f       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .ARM.attributes
+                0x000003bb       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .ARM.attributes
+                0x000003e7       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .ARM.attributes
+                0x00000413       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x0000043f       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x0000046b       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000497       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .ARM.attributes
+                0x000004c3       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+
+.comment        0x00000000       0x49
+ .comment       0x00000000       0x49 CMakeFiles/Polling.dir/main.c.obj
+                                 0x4a (size before relaxing)
+ .comment       0x00000049       0x4a CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_info     0x00000000     0x189a
+ .debug_info    0x00000000      0x375 CMakeFiles/Polling.dir/main.c.obj
+ .debug_info    0x00000375      0x293 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_info    0x00000608       0x26 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_info    0x0000062e      0xd7a CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_info    0x000013a8      0x4f2 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_abbrev   0x00000000      0x56a
+ .debug_abbrev  0x00000000      0x135 CMakeFiles/Polling.dir/main.c.obj
+ .debug_abbrev  0x00000135       0x61 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_abbrev  0x00000196       0x14 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_abbrev  0x000001aa      0x2b5 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_abbrev  0x0000045f      0x10b CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_aranges  0x00000000      0x298
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/Polling.dir/main.c.obj
+ .debug_aranges
+                0x00000028      0x108 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_aranges
+                0x00000130       0x20 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_aranges
+                0x00000150      0x118 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_aranges
+                0x00000268       0x30 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_ranges   0x00000000      0x238
+ .debug_ranges  0x00000000       0x18 CMakeFiles/Polling.dir/main.c.obj
+ .debug_ranges  0x00000018       0xf8 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_ranges  0x00000110      0x108 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_ranges  0x00000218       0x20 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_macro    0x00000000     0x2ea7
+ .debug_macro   0x00000000      0x210 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000210      0xa3c CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000c4c       0x22 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000c6e       0x5e CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000ccc       0x18 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000ce4       0x94 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000d78       0x35 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000dad       0x34 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000de1       0x16 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000df7       0x57 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000e4e       0x97 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00000ee5      0x341 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001226       0xfd CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001323       0x10 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001333       0x16 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001349       0x43 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x0000138c       0x34 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000013c0       0x10 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000013d0       0x58 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001428      0x182 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000015aa       0x10 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000015ba       0x6a CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001624       0x1c CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001640       0x52 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001692       0x22 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000016b4       0x10 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000016c4       0x52 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001716       0xd5 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000017eb       0x1c CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001807       0x3d CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001844       0x16 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x0000185a      0x16f CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000019c9       0x22 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x000019eb       0x3a CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001a25      0x103 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001b28      0x1df CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001d07       0x1f CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001d26      0x242 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001f68       0x10 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00001f78      0xa22 CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x0000299a      0x22d CMakeFiles/Polling.dir/main.c.obj
+ .debug_macro   0x00002bc7       0xa6 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00002c6d       0x8e CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00002cfb       0x51 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_macro   0x00002d4c       0xb5 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_macro   0x00002e01       0xa6 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_line     0x00000000     0x1636
+ .debug_line    0x00000000      0x4d5 CMakeFiles/Polling.dir/main.c.obj
+ .debug_line    0x000004d5      0x54a CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_line    0x00000a1f       0x9d CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_line    0x00000abc      0x7c7 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_line    0x00001283      0x3b3 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_str      0x00000000     0xd3d0
+ .debug_str     0x00000000     0xcbc6 CMakeFiles/Polling.dir/main.c.obj
+                               0xcdd9 (size before relaxing)
+ .debug_str     0x0000cbc6      0x1e0 CMakeFiles/Polling.dir/W7500x_it.c.obj
+                               0x7b82 (size before relaxing)
+ .debug_str     0x0000cda6       0x3a CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                 0x74 (size before relaxing)
+ .debug_str     0x0000cde0      0x55b CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                               0x978d (size before relaxing)
+ .debug_str     0x0000d33b       0x95 CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                               0x7d13 (size before relaxing)
+
+.debug_frame    0x00000000      0xb6c
+ .debug_frame   0x00000000       0x4c CMakeFiles/Polling.dir/main.c.obj
+ .debug_frame   0x0000004c      0x358 CMakeFiles/Polling.dir/W7500x_it.c.obj
+ .debug_frame   0x000003a4      0x404 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+ .debug_frame   0x000007a8       0x6c CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_frame   0x00000814       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000834       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x0000085c       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x00000888       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+ .debug_frame   0x000008c0       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+ .debug_frame   0x000008f8       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+ .debug_frame   0x00000930       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+ .debug_frame   0x00000950       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+ .debug_frame   0x0000097c       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+ .debug_frame   0x000009b4       0x3c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+ .debug_frame   0x000009f0       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+ .debug_frame   0x00000a1c       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+ .debug_frame   0x00000a48       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+ .debug_frame   0x00000a74       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+ .debug_frame   0x00000aa0       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+ .debug_frame   0x00000acc       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+ .debug_frame   0x00000b04       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+ .debug_frame   0x00000b38       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_Handler                                       CMakeFiles/Polling.dir/W7500x_it.c.obj
+Buffercmp                                         CMakeFiles/Polling.dir/main.c.obj
+BusFault_Handler                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+DMA_Handler                                       CMakeFiles/Polling.dir/W7500x_it.c.obj
+DUALTIMER0_Handler                                CMakeFiles/Polling.dir/W7500x_it.c.obj
+DUALTIMER1_Handler                                CMakeFiles/Polling.dir/W7500x_it.c.obj
+DebugMon_Handler                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+EXTI_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+GPIO_Configuration                                CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_DeInit                                       CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Clear                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Configuration                            CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Enable                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Enable_Bits                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Polarity                                 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Polarity_Bits                            CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_Init                                         CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ReadInputData                                CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ReadInputDataBit                             CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ReadOutputData                               CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ReadOutputDataBit                            CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_Read_INTstatus                               CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ResetBits                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_SetBits                                      CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_StructInit                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ToggleBits                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_Write                                        CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_WriteBit                                     CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GetSystemClock                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+HardFault_Handler                                 CMakeFiles/Polling.dir/W7500x_it.c.obj
+I2C0_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+I2C1_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+MemManage_Handler                                 CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+NMI_Handler                                       CMakeFiles/Polling.dir/W7500x_it.c.obj
+PAD_AFConfig                                      CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+PORT0_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+PORT1_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+PORT2_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+PORT3_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM0_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM1_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM2_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM3_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM4_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM5_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM6_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PWM7_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+PendSV_Handler                                    CMakeFiles/Polling.dir/W7500x_it.c.obj
+RTC_Handler                                       CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+Reset_Handler                                     CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+RxBuffer                                          CMakeFiles/Polling.dir/main.c.obj
+RxCounter                                         CMakeFiles/Polling.dir/main.c.obj
+SSP0_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+SSP1_Handler                                      CMakeFiles/Polling.dir/W7500x_it.c.obj
+SVC_Handler                                       CMakeFiles/Polling.dir/W7500x_it.c.obj
+S_UART_ClearITPendingBit                          CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_DeInit                                     CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_GetFlagStatus                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_GetITStatus                                CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_ITConfig                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_Init                                       CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_ReceiveData                                CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_SendData                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_SetBaud                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UART_SetCTRL                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UartGetc                                        CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UartPutc                                        CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+S_UartPuts                                        CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+SysTick_Handler                                   CMakeFiles/Polling.dir/W7500x_it.c.obj
+SystemCoreClock                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+SystemCoreClockUpdate                             CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+SystemFrequency                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+SystemInit                                        CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                                                  CMakeFiles/Polling.dir/main.c.obj
+TransferStatus                                    CMakeFiles/Polling.dir/main.c.obj
+TxBuffer                                          CMakeFiles/Polling.dir/main.c.obj
+TxCounter                                         CMakeFiles/Polling.dir/main.c.obj
+UART0_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+UART1_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+UART2_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+UART_ClearFlag                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_ClearITPendingBit                            CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_ClearRecvStatus                              CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_DMA_Config                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_DeInit                                       CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_FIFO_Disable                                 CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_FIFO_Enable                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_GetFlagStatus                                CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                                                  CMakeFiles/Polling.dir/main.c.obj
+UART_GetITStatus                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_GetRecvStatus                                CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_ITConfig                                     CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_Init                                         CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                                                  CMakeFiles/Polling.dir/main.c.obj
+UART_InitStructure                                CMakeFiles/Polling.dir/main.c.obj
+UART_ReceiveData                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                                                  CMakeFiles/Polling.dir/main.c.obj
+UART_SendBreak                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UART_SendData                                     CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                                                  CMakeFiles/Polling.dir/main.c.obj
+UART_StructInit                                   CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                                                  CMakeFiles/Polling.dir/main.c.obj
+UartGetc                                          CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UartPutc                                          CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+                                                  CMakeFiles/Polling.dir/retarget.c.obj
+UartPuts                                          CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+UsageFault_Handler                                CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+WZTOE_Handler                                     CMakeFiles/Polling.dir/W7500x_it.c.obj
+__HEAP_SIZE                                       CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__HeapBase                                        CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__HeapLimit                                       CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__STACK_SIZE                                      CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__StackLimit                                      CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__StackTop                                        CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__aeabi_cdcmpeq                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdcmple                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdrcmple                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__aeabi_cfcmpeq                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfcmple                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_cfrcmple                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_d2iz                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixdfsi.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+__aeabi_d2uiz                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_dadd                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_dcmpeq                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmpge                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+__aeabi_dcmpgt                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmple                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmplt                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__aeabi_dsub                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+__aeabi_f2d                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_f2iz                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(fixsfsi.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+__aeabi_f2uiz                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_fcmpeq                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmpge                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+__aeabi_fcmpgt                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmple                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_fcmplt                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__aeabi_fdiv                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_fmul                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_fsub                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_idiv0                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+__aeabi_ldiv0                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+__aeabi_ui2f                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_uidiv                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_uart.c.obj
+__aeabi_uidivmod                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+__bss_end__                                       CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__bss_start__                                     CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__call_exitprocs                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+__clzsi2                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(extendsfdf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subdf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(adddf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(floatunsisf.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(subsf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(mulsf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(divsf3.o)
+__data_end__                                      CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__data_start__                                    CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__deregister_frame_info                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+__dso_handle                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+__eqdf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__eqsf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__etext                                           CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__fixunsdfsi                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunsdfsi.o)
+__fixunssfsi                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_fixunssfsi.o)
+__gedf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__gesf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__gtdf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gedf2.o)
+__gtsf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(gesf2.o)
+__init_array_end                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__init_array_start                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__isr_vector                                      CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__ledf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpdf2.o)
+__lesf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_arm_cmpsf2.o)
+__libc_fini_array                                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__libc_init_array                                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__ltdf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(ledf2.o)
+__ltsf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(lesf2.o)
+__nedf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqdf2.o)
+__nesf2                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(eqsf2.o)
+__preinit_array_end                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__preinit_array_start                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__register_frame_info                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+__sf_fake_stderr                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdin                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdout                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+__stack                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__udivsi3                                         c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+_exit                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+_fini                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+_global_impure_ptr                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+_impure_ptr                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+_init                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+_mainCRTStartup                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+_stack_init                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+_start                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+_write                                            CMakeFiles/Polling.dir/retarget.c.obj
+atexit                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+exit                                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+hardware_init_hook                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+main                                              CMakeFiles/Polling.dir/main.c.obj
+                                                  CMakeFiles/Polling.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+memset                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+software_init_hook                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o

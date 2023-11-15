@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Projects/Peripheral_Examples/RNG",
+		"source" : "Projects/Peripheral_Examples/RNG"
+	}
+}

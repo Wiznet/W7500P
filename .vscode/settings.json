@@ -1,0 +1,13 @@
+{
+    "cmake.sourceDirectory": "D:/W7500P",
+    "files.associations": {
+        "stdio.h": "c",
+        "stat.h": "c",
+        "w7500x_dualtimer.h": "c",
+        "mmc_sd.h": "c",
+        "w7500x_it.h": "c",
+        "w7500x_uart.h": "c",
+        "w7500x_wztoe.h": "c",
+        "loopback.h": "c"
+    }
+}

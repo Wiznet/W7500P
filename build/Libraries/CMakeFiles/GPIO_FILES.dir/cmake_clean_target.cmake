@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libGPIO_FILES.a"
+)

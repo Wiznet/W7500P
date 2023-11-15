@@ -1,0 +1,831 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (exit)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (memset)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj (__aeabi_uidiv)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .text          0x00000000       0x80 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.exidx     0x00000000       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x60 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/main.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Sleep.dir/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Sleep.dir/main.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Sleep.dir/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .text.EXTI_DeInit
+                0x00000000       0x70 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .text.EXTI_Polarity_Set
+                0x00000000       0xd0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .text.EXTI_StructInit
+                0x00000000       0x22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .text.EXTI_Px_GetEXTEN
+                0x00000000       0x94 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .text.EXTI_Px_GetEXTINTPOL
+                0x00000000       0x94 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.NVIC_EnableIRQ
+                0x00000000       0x2c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_DeInit
+                0x00000000       0xb0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_StructInit
+                0x00000000       0x28 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x40 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadInputData
+                0x00000000       0x16 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x40 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ReadOutputData
+                0x00000000       0x16 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_WriteBit
+                0x00000000       0xdc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_Write
+                0x00000000       0x1e CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_ToggleBits
+                0x00000000       0x24 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Enable_Bits
+                0x00000000       0x54 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Enable
+                0x00000000       0x38 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Polarity_Bits
+                0x00000000       0x46 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Polarity
+                0x00000000       0x30 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Clear
+                0x00000000       0x1c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_Read_INTstatus
+                0x00000000       0x40 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_Configuration
+                0x00000000       0xb4 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .text.GPIO_INT_Configuration
+                0x00000000       0xe2 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00000000       0xac CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .group         0x00000000        0xc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .bss.SystemCoreClock
+                0x00000000        0x4 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .text.SystemCoreClockUpdate
+                0x00000000       0x94 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .text.GetSystemClock
+                0x00000000       0x14 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0xa3c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x3a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x1f CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000      0xa22 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .text._exit    0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00020000         xr
+RAM              0x20000000         0x00003fc0         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD CMakeFiles/Sleep.dir/main.c.obj
+LOAD CMakeFiles/Sleep.dir/W7500x_it.c.obj
+LOAD CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+LOAD CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+LOAD CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+LOAD CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+LOAD ../../../../Libraries/libEXTI_FILES.a
+LOAD ../../../../Libraries/libGPIO_FILES.a
+LOAD ../../../../Libraries/libSYSTEM_W7500X_FILES.a
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+END GROUP
+
+.text           0x00000000      0xa5c
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xa8 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x00000000                __isr_vector
+ *(.text*)
+ .text          0x000000a8       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .text.NVIC_EnableIRQ
+                0x000000f0       0x2c CMakeFiles/Sleep.dir/main.c.obj
+ .text.NVIC_ClearPendingIRQ
+                0x0000011c       0x34 CMakeFiles/Sleep.dir/main.c.obj
+ .text.main     0x00000150       0x68 CMakeFiles/Sleep.dir/main.c.obj
+                0x00000150                main
+ .text.GPIO_Setting
+                0x000001b8       0x66 CMakeFiles/Sleep.dir/main.c.obj
+                0x000001b8                GPIO_Setting
+ .text.NVIC_Configuration
+                0x0000021e       0x16 CMakeFiles/Sleep.dir/main.c.obj
+                0x0000021e                NVIC_Configuration
+ .text.delay_ms
+                0x00000234       0x30 CMakeFiles/Sleep.dir/main.c.obj
+                0x00000234                delay_ms
+ .text.NVIC_ClearPendingIRQ
+                0x00000264       0x34 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .text.NMI_Handler
+                0x00000298        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000298                NMI_Handler
+ .text.HardFault_Handler
+                0x000002a2        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002a2                HardFault_Handler
+ .text.SVC_Handler
+                0x000002ac        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002ac                SVC_Handler
+ .text.PendSV_Handler
+                0x000002b6        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002b6                PendSV_Handler
+ .text.SysTick_Handler
+                0x000002c0        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002c0                SysTick_Handler
+ .text.SSP0_Handler
+                0x000002ca        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002ca                SSP0_Handler
+ .text.SSP1_Handler
+                0x000002d4        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002d4                SSP1_Handler
+ .text.UART0_Handler
+                0x000002de        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002de                UART0_Handler
+ .text.UART1_Handler
+                0x000002e8        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002e8                UART1_Handler
+ .text.UART2_Handler
+                0x000002f2        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002f2                UART2_Handler
+ .text.I2C0_Handler
+                0x000002fc        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000002fc                I2C0_Handler
+ .text.I2C1_Handler
+                0x00000306        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000306                I2C1_Handler
+ .text.PORT0_Handler
+                0x00000310        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000310                PORT0_Handler
+ .text.PORT1_Handler
+                0x0000031a        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x0000031a                PORT1_Handler
+ .text.PORT2_Handler
+                0x00000324        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000324                PORT2_Handler
+ .text.PORT3_Handler
+                0x0000032e        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x0000032e                PORT3_Handler
+ .text.DMA_Handler
+                0x00000338        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000338                DMA_Handler
+ .text.DUALTIMER0_Handler
+                0x00000342        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000342                DUALTIMER0_Handler
+ .text.DUALTIMER1_Handler
+                0x0000034c        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x0000034c                DUALTIMER1_Handler
+ .text.PWM0_Handler
+                0x00000356        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000356                PWM0_Handler
+ .text.PWM1_Handler
+                0x00000360        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000360                PWM1_Handler
+ .text.PWM2_Handler
+                0x0000036a        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x0000036a                PWM2_Handler
+ .text.PWM3_Handler
+                0x00000374        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000374                PWM3_Handler
+ .text.PWM4_Handler
+                0x0000037e        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x0000037e                PWM4_Handler
+ .text.PWM5_Handler
+                0x00000388        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000388                PWM5_Handler
+ .text.PWM6_Handler
+                0x00000392        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x00000392                PWM6_Handler
+ .text.PWM7_Handler
+                0x0000039c        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x0000039c                PWM7_Handler
+ .text.ADC_Handler
+                0x000003a6        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000003a6                ADC_Handler
+ .text.WZTOE_Handler
+                0x000003b0        0xa CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000003b0                WZTOE_Handler
+ .text.EXTI_Handler
+                0x000003ba       0x10 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                0x000003ba                EXTI_Handler
+ *fill*         0x000003ca        0x2 
+ .text          0x000003cc       0x84 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x000003cc                Reset_Handler
+                0x0000040c                MemManage_Handler
+                0x0000040e                BusFault_Handler
+                0x00000410                UsageFault_Handler
+                0x00000414                DebugMon_Handler
+                0x00000446                RTC_Handler
+ .text.EXTI_Init
+                0x00000450       0xd8 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+                0x00000450                EXTI_Init
+ .text.GPIO_Init
+                0x00000528      0x1b8 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                0x00000528                GPIO_Init
+ .text.GPIO_SetBits
+                0x000006e0       0x4a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                0x000006e0                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x0000072a       0x4e CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                0x0000072a                GPIO_ResetBits
+ .text.PAD_AFConfig
+                0x00000778       0xfc CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                0x00000778                PAD_AFConfig
+ .text.SystemInit
+                0x00000874       0xb4 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                0x00000874                SystemInit
+ .text          0x00000928      0x114 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x00000928                __aeabi_uidiv
+                0x00000928                __udivsi3
+                0x00000a34                __aeabi_uidivmod
+ .text          0x00000a3c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x00000a3c                __aeabi_idiv0
+                0x00000a3c                __aeabi_ldiv0
+ *(.init)
+ .init          0x00000a40        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x00000a40                _init
+ .init          0x00000a44        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x00000a4c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x00000a4c                _fini
+ .fini          0x00000a50        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ *(.eh_frame*)
+ .eh_frame      0x00000a58        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x00000a58        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+
+.glue_7         0x00000a5c        0x0
+ .glue_7        0x00000a5c        0x0 linker stubs
+
+.glue_7t        0x00000a5c        0x0
+ .glue_7t       0x00000a5c        0x0 linker stubs
+
+.vfp11_veneer   0x00000a5c        0x0
+ .vfp11_veneer  0x00000a5c        0x0 linker stubs
+
+.v4_bx          0x00000a5c        0x0
+ .v4_bx         0x00000a5c        0x0 linker stubs
+
+.iplt           0x00000a5c        0x0
+ .iplt          0x00000a5c        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.rel.dyn        0x00000a5c        0x0
+ .rel.iplt      0x00000a5c        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000a5c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000a5c                __exidx_end = .
+                0x00000a5c                __etext = .
+
+.data           0x20000000        0x8 load address 0x00000a5c
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x20000000                PROVIDE (__preinit_array_end = .)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x20000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x20000004                PROVIDE (__init_array_end = .)
+                0x20000004                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20000004        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x20000008                . = ALIGN (0x4)
+                0x20000008                __data_end__ = .
+
+.igot.plt       0x20000008        0x0 load address 0x00000a64
+ .igot.plt      0x20000008        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.bss            0x20000008       0x20 load address 0x00000a64
+                0x20000008                . = ALIGN (0x4)
+                0x20000008                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20000008       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.SystemFrequency
+                0x20000024        0x4 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                0x20000024                SystemFrequency
+ *(COMMON)
+                0x20000028                . = ALIGN (0x4)
+                0x20000028                __bss_end__ = .
+
+.heap           0x20000028        0x0
+                0x20000028                __end__ = .
+                0x20000028                end = __end__
+ *(.heap*)
+ .heap          0x20000028        0x0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x20000028                __HeapLimit = .
+
+.stack_dummy    0x20000028      0x200
+ *(.stack*)
+ .stack         0x20000028      0x200 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                0x20003fc0                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20003dc0                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20003fc0                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(Sleep elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x2c CMakeFiles/Sleep.dir/main.c.obj
+ .ARM.attributes
+                0x00000076       0x2c CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .ARM.attributes
+                0x000000a2       0x1b CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .ARM.attributes
+                0x000000bd       0x2c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .ARM.attributes
+                0x000000e9       0x2c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .ARM.attributes
+                0x00000115       0x2c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .ARM.attributes
+                0x00000141       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000015f       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000017d       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+ .ARM.attributes
+                0x000001a9       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtn.o
+
+.comment        0x00000000       0x49
+ .comment       0x00000000       0x49 CMakeFiles/Sleep.dir/main.c.obj
+                                 0x4a (size before relaxing)
+ .comment       0x00000049       0x4a CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_info     0x00000000     0x2078
+ .debug_info    0x00000000      0x71c CMakeFiles/Sleep.dir/main.c.obj
+ .debug_info    0x0000071c      0x4a1 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_info    0x00000bbd       0x26 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_info    0x00000be3      0x3c9 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_info    0x00000fac      0xbda CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_info    0x00001b86      0x4f2 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_abbrev   0x00000000      0x87e
+ .debug_abbrev  0x00000000      0x222 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_abbrev  0x00000222      0x144 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_abbrev  0x00000366       0x14 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_abbrev  0x0000037a      0x1b2 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_abbrev  0x0000052c      0x247 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_abbrev  0x00000773      0x10b CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_aranges  0x00000000      0x2b8
+ .debug_aranges
+                0x00000000       0x48 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_aranges
+                0x00000048      0x110 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_aranges
+                0x00000158       0x20 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_aranges
+                0x00000178       0x48 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_aranges
+                0x000001c0       0xc8 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_aranges
+                0x00000288       0x30 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_ranges   0x00000000      0x248
+ .debug_ranges  0x00000000       0x38 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_ranges  0x00000038      0x100 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_ranges  0x00000138       0x38 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_ranges  0x00000170       0xb8 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_ranges  0x00000228       0x20 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_macro    0x00000000     0x207b
+ .debug_macro   0x00000000       0xc8 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x000000c8      0xa3c CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000b04       0x22 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000b26       0x3a CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000b60       0x22 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000b82       0x8e CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000c10       0x51 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000c61      0x103 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000d64       0x6a CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000dce      0x1df CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000fad       0x1f CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00000fcc      0x242 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x0000120e       0x10 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x0000121e      0xa22 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00001c40       0xac CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00001cec       0x10 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_macro   0x00001cfc       0xb0 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_macro   0x00001dac       0xc2 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00001e6e       0xb2 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_macro   0x00001f20       0xb5 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_macro   0x00001fd5       0xa6 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_line     0x00000000     0x1b33
+ .debug_line    0x00000000      0x45b CMakeFiles/Sleep.dir/main.c.obj
+ .debug_line    0x0000045b      0x5bc CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_line    0x00000a17       0x9d CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+ .debug_line    0x00000ab4      0x559 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_line    0x0000100d      0x773 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_line    0x00001780      0x3b3 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+
+.debug_str      0x00000000     0x8d05
+ .debug_str     0x00000000     0x8463 CMakeFiles/Sleep.dir/main.c.obj
+                               0x85e9 (size before relaxing)
+ .debug_str     0x00008463      0x1ed CMakeFiles/Sleep.dir/W7500x_it.c.obj
+                               0x7d71 (size before relaxing)
+ .debug_str     0x00008650       0x3a CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                 0x72 (size before relaxing)
+ .debug_str     0x0000868a       0xe4 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+                               0x82d5 (size before relaxing)
+ .debug_str     0x0000876e      0x27e CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                               0x867e (size before relaxing)
+ .debug_str     0x000089ec      0x319 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                               0x7d11 (size before relaxing)
+
+.debug_frame    0x00000000      0x86c
+ .debug_frame   0x00000000       0xc8 CMakeFiles/Sleep.dir/main.c.obj
+ .debug_frame   0x000000c8      0x378 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+ .debug_frame   0x00000440       0xd0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+ .debug_frame   0x00000510      0x2d0 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+ .debug_frame   0x000007e0       0x6c CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+ .debug_frame   0x0000084c       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_Handler                                       CMakeFiles/Sleep.dir/W7500x_it.c.obj
+BusFault_Handler                                  CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+DMA_Handler                                       CMakeFiles/Sleep.dir/W7500x_it.c.obj
+DUALTIMER0_Handler                                CMakeFiles/Sleep.dir/W7500x_it.c.obj
+DUALTIMER1_Handler                                CMakeFiles/Sleep.dir/W7500x_it.c.obj
+DebugMon_Handler                                  CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+EXTI_DeInit                                       CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+EXTI_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+EXTI_Init                                         CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+                                                  CMakeFiles/Sleep.dir/main.c.obj
+EXTI_Polarity_Set                                 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+EXTI_Px_GetEXTEN                                  CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+EXTI_Px_GetEXTINTPOL                              CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+EXTI_StructInit                                   CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_exti.c.obj
+GPIO_Configuration                                CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_DeInit                                       CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Clear                                    CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Configuration                            CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Enable                                   CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Enable_Bits                              CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Polarity                                 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_INT_Polarity_Bits                            CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_Init                                         CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                                                  CMakeFiles/Sleep.dir/main.c.obj
+GPIO_ReadInputData                                CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ReadInputDataBit                             CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ReadOutputData                               CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ReadOutputDataBit                            CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_Read_INTstatus                               CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ResetBits                                    CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                                                  CMakeFiles/Sleep.dir/main.c.obj
+GPIO_SetBits                                      CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                                                  CMakeFiles/Sleep.dir/main.c.obj
+GPIO_Setting                                      CMakeFiles/Sleep.dir/main.c.obj
+GPIO_StructInit                                   CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_ToggleBits                                   CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_Write                                        CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GPIO_WriteBit                                     CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+GetSystemClock                                    CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+HardFault_Handler                                 CMakeFiles/Sleep.dir/W7500x_it.c.obj
+I2C0_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+I2C1_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+MemManage_Handler                                 CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+NMI_Handler                                       CMakeFiles/Sleep.dir/W7500x_it.c.obj
+NVIC_Configuration                                CMakeFiles/Sleep.dir/main.c.obj
+PAD_AFConfig                                      CMakeFiles/Sleep.dir/__/__/__/__/Libraries/W7500x_stdPeriph_Driver/src/W7500x_gpio.c.obj
+                                                  CMakeFiles/Sleep.dir/main.c.obj
+PORT0_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PORT1_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PORT2_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PORT3_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM0_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM1_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM2_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM3_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM4_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM5_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM6_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PWM7_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+PendSV_Handler                                    CMakeFiles/Sleep.dir/W7500x_it.c.obj
+RTC_Handler                                       CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+Reset_Handler                                     CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+SSP0_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+SSP1_Handler                                      CMakeFiles/Sleep.dir/W7500x_it.c.obj
+SVC_Handler                                       CMakeFiles/Sleep.dir/W7500x_it.c.obj
+SysTick_Handler                                   CMakeFiles/Sleep.dir/W7500x_it.c.obj
+SystemCoreClock                                   CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+SystemCoreClockUpdate                             CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+SystemFrequency                                   CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+SystemInit                                        CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+                                                  CMakeFiles/Sleep.dir/main.c.obj
+UART0_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+UART1_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+UART2_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+UsageFault_Handler                                CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+WZTOE_Handler                                     CMakeFiles/Sleep.dir/W7500x_it.c.obj
+__HEAP_SIZE                                       CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__HeapBase                                        CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__HeapLimit                                       CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__STACK_SIZE                                      CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__StackLimit                                      CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__StackTop                                        CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__aeabi_idiv0                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+__aeabi_ldiv0                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+__aeabi_uidiv                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                                                  CMakeFiles/Sleep.dir/__/__/__/__/Libraries/CMSIS/Device/WIZnet/W7500/Source/system_W7500x.c.obj
+__aeabi_uidivmod                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+__bss_end__                                       CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__bss_start__                                     CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__call_exitprocs                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+__data_end__                                      CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__data_start__                                    CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__deregister_frame_info                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+__dso_handle                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+__etext                                           CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__init_array_end                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__init_array_start                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__isr_vector                                      CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+__libc_fini_array                                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__libc_init_array                                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__preinit_array_end                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__preinit_array_start                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+__register_frame_info                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+__sf_fake_stderr                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdin                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdout                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+__stack                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+__udivsi3                                         c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+_exit                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(_exit.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+_fini                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+_global_impure_ptr                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+_impure_ptr                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-impure.o)
+_init                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-init.o)
+_mainCRTStartup                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+_stack_init                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+_start                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+atexit                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+delay_ms                                          CMakeFiles/Sleep.dir/main.c.obj
+exit                                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-exit.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+hardware_init_hook                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+main                                              CMakeFiles/Sleep.dir/main.c.obj
+                                                  CMakeFiles/Sleep.dir/__/__/__/__/Libraries/Startup/startup_W7500.s.obj
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+memset                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(lib_a-memset.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+software_init_hook                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o

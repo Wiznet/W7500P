@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Projects/Peripheral_Examples/WZTOE/LoopbackTest",
+		"source" : "Projects/Peripheral_Examples/WZTOE/LoopbackTest"
+	}
+}
